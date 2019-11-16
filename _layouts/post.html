@@ -1,0 +1,103 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="content col-lg-9">
+        <div class="sheet post">
+          <header>
+            <h2>{{ page.title }}</h2>
+            <p class="post-meta">
+                <span class="octicon octicon-clock"></span> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+            </p>
+            <p class="post-tag">
+                <span>{% for cat in page.categories %}<a href="{{ '/category' | prepend: site.baseurl | prepend: site.url }}/#{{ cat }}"><span class="octicon octicon-list-unordered"></span>&nbsp;{{ cat }}</a>{% endfor %}</span>
+                <span>{% for tag in page.tags %}
+                    <a class="word-keep" href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+                    {% endfor %}
+                </span>
+            </p>
+          </header>
+          <hr class="boundary">
+          <article>
+            {{content}}
+          </article>
+          <hr class="boundary">
+          <div id="post-share" class="bdsharebuttonbox">
+              <a href="#" class="bds_more" data-cmd="more"></a>
+              <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+              <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+              <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+              <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+              <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+          </div>
+        </div>
+        <div class="pad-min"></div>
+        <div id="post-comment" class="sheet post hidden">
+            <div id="disqus_thread"></div>
+        </div>
+    </div>
+    <div class="content-navigation col-lg-3">
+      <div class="shadow-bottom-center" >
+        <div class="content-navigation-toc">
+            <div class="content-navigation-header">
+                <span class="octicon octicon-list-unordered"></span>&nbsp;Toc
+            </div>
+            <div class="content-navigation-list toc"></div>
+        </div>
+        <div class="content-navigation-tag">
+            <div class="content-navigation-header">
+                <span class="octicon octicon-list-unordered"></span>&nbsp;Tags
+            </div>
+            <div class="content-navigation-list">
+                <ul>
+                    {% for tag in page.tags %}
+                    <li>
+                        <a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="content-navigation-related">
+            <div class="content-navigation-header">
+                <span class="octicon octicon-list-unordered"></span>&nbsp;Related
+            </div>
+            <div class="content-navigation-list">
+                <ul>
+                    {% assign postsAfterFilter = '-' | split: "-" %}
+
+                    {% for p in site.posts %}
+                        {%if p.url != page.url %}
+                            {% assign commonTagCount = 0 %}
+
+                            {% for tag in p.tags %}
+                                {% if page.tags contains tag %}
+                                    {% assign commonTagCount = commonTagCount | plus: 1 %}
+                                {% endif %}
+                            {% endfor %}
+
+                            {% for cat in p.categories %}
+                                {% if page.categories contains cat %}
+                                    {% assign commonTagCount = commonTagCount | plus: 1 %}
+                                {% endif %}
+                            {% endfor %}
+
+                            {% if commonTagCount > 0 %}
+                                {% assign postsAfterFilter = postsAfterFilter | push: p %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if postsAfterFilter.size > 0 %}
+                        {% for p in postsAfterFilter limit: 15 %}
+                            <li>
+                                <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">{{ p.title }}</a>
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

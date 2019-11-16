@@ -1,0 +1,15 @@
+    <footer  class="footnote footnote-tiffany">
+        <div class="container">
+                <a class="foot-item" href="mailto:{{ site.email }}" target="_blank"><span class="octicon octicon-mail"></span></a>
+                <a class="foot-item" href="https://github.com/{{ site.github.username }}" target="_blank"><span class="octicon octicon-mark-github"></span></a>
+                <a class="foot-item" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><span class="octicon octicon-rss"></span></a>
+                <a class="foot-item" href="{{ '/link/' | prepend: site.baseurl | prepend: site.url }}"><span class="octicon octicon-link-external"></span></a>
+                &nbsp;
+                <a href="https://github.com/bit-ranger"><span class="word-keep">&copy; bit-ranger</span></a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{'/static/js/script.js' | prepend:site.baseurl | prepend: site.url  }}"></script>
+    {% for script in page.scripts %}<script type="text/javascript" src="{{'/static/js/' | append:script | prepend:site.baseurl | prepend: site.url  }}"></script>
+    {%endfor%}

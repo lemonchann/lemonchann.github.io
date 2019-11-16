@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<link rel="stylesheet" type="text/css" href="{{ '/static/css/article-list.css' | prepend: site.baseurl | prepend: site.url}}" />
+
+<div class="row index">
+  <div class="col-sm-10 col-sm-offset-1 col-lg-9 col-lg-offset-1_5">
+      <div>
+        <section class="category-slice" post-cate="All">
+          {% for post in paginator.posts %}
+            <article>
+                <header>
+                    <a href="{{ site.baseurl | prepend: site.url  }}/archive/#{{ post.date | date: '%Y-%m-%d' }}"><span class="octicon octicon-calendar"></span>&nbsp;<span>{{ post.date | date: "%Y-%m-%d" }}</span></a>
+                </header>
+                <div class="module">
+                  <a class="title" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+                      {{ post.title }}
+                  </a>
+                  <p>{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}</p>
+                  <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
+                  <footer>
+                      {% for tag in post.tags %}
+                      <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+                      {% endfor %}
+                      <span class="word-keep pull-right">
+                          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-comment"><span class="octicon octicon-comment"></span>&nbsp;Comment</a>
+                          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-share"><span class="octicon octicon-file-symlink-file"></span>&nbsp;Share</a>
+                      </span>
+                  </footer>
+                </div>
+            </article>
+          {% endfor %}
+        </section>
+
+          <div class="pad-mid"></div>
+
+          <nav class="text-center">
+              <ul class="pagination">
+                {% if paginator.total_pages > 1 %}
+                  {% if paginator.previous_page %}
+                        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                  {% endif %}
+                  {% for page in (1..paginator.total_pages) %}
+                      {% if page == paginator.page %}
+                        <li class="active"><span>{{ page }}</span></li>
+                      {% elsif page == 1 %}
+                        <li><a href="{{ '/' | prepend: site.baseurl | prepend: site.url  }}">{{ page }}</a></li>
+                      {% else %}
+                        <li><a href="{{ page |  prepend: '/page/' | prepend: site.baseurl | prepend: site.url }}">{{ page }}</a></li>
+                      {% endif %}
+                  {% endfor %}
+                  {% if paginator.next_page %}
+                        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+                  {% endif %}
+                {% endif %}
+              </ul>
+          </nav>
+      </div>
+  </div>
+</div>

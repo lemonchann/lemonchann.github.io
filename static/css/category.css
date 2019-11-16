@@ -1,0 +1,30 @@
+section.category-slice{
+    display: none;
+}
+.categories-item{
+    margin-top: 0.5em;
+}
+.categories-item .categories-badge{
+    font-size: 10px;
+    color: #fff;
+    background-color: #999;
+    padding: 0 7px 1px 7px;
+    border-radius: 9px;
+    float: right;
+    transition:0.4s ease;
+    -webkit-transition:0.4s ease;
+    -moz-transition:0.4s ease;
+    -o-transition:0.4s ease;
+}
+.categories-item:hover .categories-badge{
+    -webkit-transform:rotate(360deg) scale(1.2);
+    -moz-transform:rotate(360deg) scale(1.2);
+    -o-transform:rotate(360deg) scale(1.2);
+    -ms-transform:rotate(360deg) scale(1.2);
+    transform:rotate(360deg) scale(1.2);
+}
+
+.dropdown .btn,
+.dropdown .dropdown-menu{
+    font-size: 17px;
+}

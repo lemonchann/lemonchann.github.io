@@ -1,0 +1,48 @@
+plugins: [jekyll-paginate]
+
+permalink: /:categories/:title/
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+
+
+paginate: 10
+paginate_path: "page/:num"
+baseurl: ""
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css,gitment.css,post.css]
+      scripts : [gitment.js, post.js]
+
+
+
+title: "lemonchann"
+email: lemonchann@foxmail.com
+description: ""
+github:
+  username: lemonchann
+#swiftype:
+  #searchId: iXZyPokVfxFaBTvi64Y6
+#gitment:
+    #repo: blog
+    #client_id: a6fb73b3e790e234bab8
+    #client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+
+url: "https://lemonchann.github.io/blog"
+imgrepo: "https://lemonchann.github.io/blog/static/img"
+
+
+#url: "http://127.0.0.1:4000"
+#imgrepo: "http://127.0.0.1:4000/static/img"
+
