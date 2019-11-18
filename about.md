@@ -16,5 +16,5 @@ Linux后端分布式高性能服务开发，C++熟练工，Python，Go
 
 ### 版权声明
 
-博客文章存档于**[此处](https://github.com/lemonchann/lemonchann.github.io/tree/master/_posts)** ，所有文章版权均属于文章正文author，遵循License: **CC BY-NC-SA 署名-非商业性使用-相同方式共享**。
+博客文章存档于**[此处](https://github.com/lemonchann/lemonchann.github.io/tree/master/_posts)** ，所有文章若无特别声明均采用: [**CC BY-NC-SA 署名-非商业性使用-相同方式共享**]( https://creativecommons.org/licenses/ )许可协议。
 
