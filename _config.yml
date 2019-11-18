@@ -23,7 +23,7 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/endworld/master/images/f
 navigation:
   - name: 文章
     url: /
-  - name: 关于
+  - name: 关于我
     url: /about
   - name: 归档
     url: /archive
@@ -40,6 +40,7 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
+  zhihu_username: ll-chen-2
   email: lemonchann@foxmail.com
   facebook:
   flickr:
@@ -55,7 +56,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2018 lemonchann
+footer-text: Copyright (c) 2014 lemonchann
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -63,10 +64,10 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 47178fc1af282e823505
-  clientSecret: 6a31e387eddad2cbd9face8d8d046a8961328138
-  repo: endworld
-  owner: FromEndWorld
+  clientID: bd65d5c0df878155b7fa
+  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+  repo: lemonchann.github.io
+  owner: lemonchann
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-143053266-1

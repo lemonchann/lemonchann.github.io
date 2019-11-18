@@ -1,0 +1,71 @@
+---
+layout: post
+title: "玩转vscode支持PlantUML绘制预览流程图"
+date: 2018-10-12
+tags: [vscode]
+comments: true
+author: lemonchann
+---
+
+### VsCode
+
+强大地自定义功能，已经成为程序员最爱编辑器。   
+Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studio Code 项目:一个运行于 Mac OS X、Windows和Linux之上的，针对于编写现代 Web 和云应用的跨平台源代码编辑器。   
+
+<!-- more -->
+
+该编辑器也集成了所有一款现代编辑器所应该具备的特性，包括语法高亮(syntax high lighting)，可定制的热键绑定(customizable keyboard bindings)，括号匹配(bracket matching)以及代码片段收集(snippets)。Somasegar 也告诉笔者这款编辑器也拥有对 Git 的开箱即用的支持。引用[360百科](https://baike.so.com/doc/24428308-25261478.html)
+
+### PlantUML
+**PlantUML是一个开源项目，支持快速绘制：**
+
+>时序图
+用例图
+类图
+活动图 (旧版语法在此处)
+组件图
+状态图
+对象图
+部署图 
+定时图 
+
+**同时还支持以下非UML图:**
+>线框图形界面
+架构图
+规范和描述语言 (SDL)
+Ditaa diagram
+甘特图 
+MindMap diagram 
+以 AsciiMath 或 JLaTeXMath 符号的数学公式   
+
+通过简单直观的语言来定义这些示意图,与MarkDown有相似的作用，这两种语言一个主要面向文本渲染一个主要用于图形绘制。
+#### 语法
+语法简单明了，查看以下[官方教程](http://plantuml.com/zh/sequence-diagram)   
+
+### PlantUML遇上VsCode
+#### 安装
+- 安装graphviz-2.38.msi
+- 安装2个vscode插件:
+> PlantUML、Graphviz Preview
+
+#### 例子
+```plantUML
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
+```
+#### 预览
+> Alt+D
+
+#### 文件格式
+> .wsd, .pu, .puml, .plantuml, .iuml
+
+#### 如何导出
+> F1/ctrl+shift+p; PlantUML:导出当前图表；选择导出格式png；导出即可。
+
+
+
