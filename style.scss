@@ -180,7 +180,6 @@ dt {
   float: left;
   width: $dt-width;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
   clear: left;
   text-align: right;
   white-space: nowrap;
@@ -481,14 +480,6 @@ nav {
   border-bottom: none;
 }
 
-
-.pinned .feather-anchor {
-  color: $base-lighten-color;
-  padding: 2px;
-  margin-right: 8px;
-}
-
-
 .date {
   font-weight: 300;
   font-size: $small-font-size;
@@ -520,6 +511,8 @@ nav {
 //    margin: 24px;
   }
 }
+
+
 
 // TOC
 
@@ -555,8 +548,6 @@ nav {
     padding-left: 260px;
   }
 }
-
-// pagination
 
 .pagination {
   border-top: 1px solid $divider-color;
