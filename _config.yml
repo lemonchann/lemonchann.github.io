@@ -5,7 +5,7 @@
 # Name of your site (displayed in the header)
 name: "lemonchann"
 # Short bio or description (displayed in the header)
-description: "lemonchann's blog"
+description: "lemonchann's Blog"
 
 #
 # Flags below are optional
@@ -21,13 +21,13 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/endworld/master/images/f
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 文章
+  - name: Blog
     url: /
-  - name: 关于我
+  - name: About
     url: /about
-  - name: 归档
+  - name: Archive
     url: /archive
-  - name: 标签
+  - name: Tags
     url: /tags
 
 # Pagination
@@ -44,7 +44,7 @@ footer-links:
   email: lemonchann@foxmail.com
   facebook:
   flickr:
-  github: lemonchann
+  github: lemonchann 
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
