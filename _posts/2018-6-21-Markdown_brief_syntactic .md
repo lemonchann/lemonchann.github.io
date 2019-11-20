@@ -70,8 +70,8 @@ toc: true
 4. 点 download 按钮，在地址栏可以复制图片地址，或者在Download按钮上直接右键 "复制链接地址"
 5. 拷贝链接地址https://raw.githubusercontent.com/lemonchann/cloud_image/master/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B01.png
 6. 在Markdown中引用图片
-7. 这是这篇博客我在markdown编辑器里的编辑的内容![图1](https://github.com/lemonchann/cloud_image/raw/master/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B01.png)
-![tu2](https://raw.githubusercontent.com/lemonchann/cloud_image/master/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B02.png)
+7. 这是这篇博客我在markdown编辑器里的编辑的内容![Markdown语法简明笔记1](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2018-6-21-Markdown_brief_syntactic%20/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B01.png)
+8. ![tu2](https://raw.githubusercontent.com/lemonchann/cloud_image/master/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B02.png)
 
 - **插入图片2**
 > 图片还可以用相对路径的方法插入，必须和markdown文件相同目录下的文件或文件夹，但这种方法不适合写单篇的csdn或知乎文章，可以用于写书写个人博客。
