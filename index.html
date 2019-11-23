@@ -2,26 +2,25 @@
 layout: default
 ---
 
-<div id="search-container">
+<div class="search-container">
   <input type="text" id="search-input" placeholder="search blog posts...">
   <ul id="results-container"></ul>
 </div>
-
 
 <!--script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script-->
 <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
 
 <script>
-        window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
+	window.simpleJekyllSearch = new SimpleJekyllSearch({
+	searchInput: document.getElementById('search-input'),
+	resultsContainer: document.getElementById('results-container'),
+	json: '{{ site.baseurl }}/search.json',
+	searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+	noResultsText: 'No results found',
+	limit: 10,
+	fuzzy: false,
+	exclude: ['Welcome']
+  })
 </script>
  
 {% if site.posts.size == 0 %}
@@ -78,3 +77,6 @@ layout: default
     </span>
   {% endif %}
 </div>
+
+<!--不算子网站访客统计-->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
