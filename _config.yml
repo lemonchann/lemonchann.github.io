@@ -40,7 +40,7 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  #zhihu_username: ll-chen-2
+  zhihu: ll-chen-2
   email: lemonchann@foxmail.com
   facebook:
   flickr:
@@ -53,7 +53,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
   #twitter: frommidworld
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube:
 
 # Text under the icons in footer
 footer-text: Copyright (c) 2014 lemonchann
