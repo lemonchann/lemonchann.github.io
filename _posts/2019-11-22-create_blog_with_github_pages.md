@@ -11,6 +11,8 @@ author: lemonchann
 
 [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
+<!-- more -->
+
 ### 配置search.json
 
 [复制这份代码到你博客的根目录](https://github.com/christian-fei/Simple-Jekyll-Search/blob/master/example/search.json)
@@ -41,6 +43,12 @@ author: lemonchann
   })
 </script>
 ```
+
+## 搜索框样式
+
+[html插入样式方法](https://blog.csdn.net/u014103733/article/details/72961366)
+
+参考：[jekyll search搭建](https://cloud.tencent.com/developer/article/1119290)
 
 
 
@@ -109,6 +117,18 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 	</span>
 </div>
 ```
+
+
+
+## Google站长分析
+
+[GoogleAnalytics](https://analytics.google.com/analytics/web/#/report-home/a152888548w216036791p206483624)
+
+[Google Search Console]
+
+## 如何传图片
+
+[PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)
 
 
 
