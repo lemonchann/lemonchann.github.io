@@ -7,6 +7,16 @@ comments: true
 author: lemonchann
 ---
 
+用github pages 来写博客非常简单，搭建也是十分容易。follow me.
+
+## 建立博客Git仓库
+
+首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。你可以直接fork我的博客仓库。这样你马上有了自己的博客仓库。
+
+[点这里我的博客地址](https://github.com/lemonchann/lemonchann.github.io)
+
+![for博客](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/2019-11-22-create_blog_with_github_pages/fork%E5%8D%9A%E5%AE%A2.png)
+
 ## 搜索功能集成
 
 [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
