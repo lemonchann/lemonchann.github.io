@@ -218,6 +218,8 @@ footer-links:
 
 主要是`path d=` 内容的获取，这里其实是指定svg图片的内容，我们可以从 [这里](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/)获取到大部分svg素材，比如知乎的svg[在这](https://github.com/FortAwesome/Font-Awesome/blob/master/svgs/brands/zhihu.svg)，点`raw` 按钮查看源文件，复制`path d=`后面的内容到上面的配置即可。
 
+![zhihuSvg](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages20191127002157.png)
+
 
 
 ## 添加网站计数
