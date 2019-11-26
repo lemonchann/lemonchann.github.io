@@ -13,9 +13,90 @@ author: lemonchann
 
 首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。你可以直接fork我的博客仓库。这样你马上有了自己的博客仓库。
 
-[点这里我的博客地址](https://github.com/lemonchann/lemonchann.github.io)
+[点这里我的博客地址](https://github.com/lemonchann/lemonchann.github.io)进去fork，之后在你自己的仓库下会看到刚复制的仓库。以后的操作都在你自己的仓库进行。
 
-![for博客](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/2019-11-22-create_blog_with_github_pages/fork%E5%8D%9A%E5%AE%A2.png)
+![fork博客](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/fork%E5%8D%9A%E5%AE%A2.png)
+
+**注意**： fork之后_posts文件夹内容是我的博客文件，你需要删除。版权归我所有，转载需注明出处。
+
+## 修改博客仓库名称
+
+进到你自己的博客仓库，修改博客仓库名称成你自己的用户名。github page解析的时候找的是这个 username.github.io的仓库名。
+
+![修改仓库名称](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E4%BF%AE%E6%94%B9%E4%BB%93%E5%BA%93%E5%90%8D%E7%A7%B0.png)
+
+此时，不出意外的话，打开域名https://username.github.io 就能看到你刚搭建的博客了。*注意替换username成你自己的github用户名*。
+
+## 博客配置
+
+上面点开域名看到的还是我的博客配置，显示的博客名字也是我的。还需要更改配置才是你的博客。
+
+博客的配置文件是仓库根目录下的_config.yml文件，直接点开它编辑。
+
+![config文件](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/config%E6%96%87%E4%BB%B6.png)
+
+你还需要更改以下配置：
+
+### 博客名称和描述
+
+![更改名称](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9B%B4%E6%94%B9%E5%90%8D%E7%A7%B0.png)
+
+分别是博客名称和描述，自己任意写点啥。
+
+### 博客社交链接
+
+![更改社交链接](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9B%B4%E6%94%B9%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5.png)
+
+这里配置社交链接按钮，没配的不显示，我现在配了知乎、邮箱、github账号三个。其他你想加自己加上就可以。
+
+###  配置gitalk
+
+这个是评论功能的配置。评论功能基于gitalk，在配置文件中找到gitalk配置项目：
+
+修改规则如下：
+
+```yml
+gitalk:
+  clientID: <你的clientID>
+  clientSecret: <你的clientSecret>
+  repo: <你的repository名称>
+  owner: <你的GitHub用户名>
+```
+
+原理是利用github的issues评论文章。其中clientID和clientSecret需要[点击这里创建](https://github.com/settings/applications/new)
+
+![创建gitalk鉴权app](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E5%88%9B%E5%BB%BAgitalk%E9%89%B4%E6%9D%83app.png)
+
+点绿色按钮创建，成功之后会得到以上两个id，修改配置即可。
+
+### Google站长统计
+
+首先你要去注册一个[Google Analytics]( https://analytics.google.com/analytics/ )账号，它可以统计你博客网站的访问人数，访问来源等非常丰富的网站数据。如果你不在乎可以不用跳过这节。不过要把配置中我的`google_analytics: UA-XXXXXXX-X`删除，**否则统计到我的去了**。
+
+```
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-XXXXXXX-X
+```
+
+下面是我的网站实时分析页面展示：
+
+![google分析页面](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/google%E5%88%86%E6%9E%90%E9%A1%B5%E9%9D%A2.png)
+
+由于不可描述的原因，有些人注册Google可能会遇到问题，所有不配置也没关系。
+
+### 博客网址配置
+
+```
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: https://yourname.github.io
+```
+
+这里配置你自己的博客地址。
+
+### 配置提交
+
+![配置提交](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E9%85%8D%E7%BD%AE%E6%8F%90%E4%BA%A4.png)
 
 ## 搜索功能集成
 
@@ -130,11 +211,7 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 
 
 
-## Google站长分析
 
-[GoogleAnalytics](https://analytics.google.com/analytics/web/#/report-home/a152888548w216036791p206483624)
-
-[Google Search Console]
 
 ## 如何传图片
 
