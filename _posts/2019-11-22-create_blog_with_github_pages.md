@@ -9,6 +9,8 @@ author: lemonchann
 
 用github pages 来写博客非常简单，搭建也是十分容易。follow me.
 
+<!-- more -->
+
 ## 建立博客Git仓库
 
 首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。你可以直接fork我的博客仓库。这样你马上有了自己的博客仓库。
@@ -82,7 +84,7 @@ google_analytics: UA-XXXXXXX-X
 
 ![google分析页面](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/google%E5%88%86%E6%9E%90%E9%A1%B5%E9%9D%A2.png)
 
-由于不可描述的原因，有些人注册Google可能会遇到问题，所有不配置也没关系。
+由于不可描述的原因，国内注册账号可能会遇到问题，所有不配置也没关系。
 
 ### 博客网址配置
 
@@ -96,21 +98,41 @@ url: https://yourname.github.io
 
 ### 配置提交
 
+对_config.ymld的修改需要提交才能生效，点下图中绿色按钮提交。
+
 ![配置提交](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E9%85%8D%E7%BD%AE%E6%8F%90%E4%BA%A4.png)
+
+**done! 现在输入上面提到的博客地址，回车，你拥有了自己的博客。**
+
+## 如何写博客
+
+好了，博客有了。如何更新文章呢？
+
+文章用markdown语法，写好统一放在_post文件夹下上传，git page会自动从你的git仓库拉去解析成网页，立刻就能在你的博客网页浏览。
+
+关于文章的**命名格式**：博客文章必须按照统一的命名格式 `yyyy-mm-dd-blogName.md` 比如我这篇博客的名字是`2019-11-22-create_blog_with_github_pages.md`
+
+**看到这里，如果只是简单的想写博客，后面的不看也可以了，后面章节是记录一些DIY的过程。**
+
+
 
 ## 搜索功能集成
 
-[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-
-<!-- more -->
+博客模板本来是没有搜索功能的，搜索功能依赖[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)提供支持。
 
 ### 配置search.json
 
 [复制这份代码到你博客的根目录](https://github.com/christian-fei/Simple-Jekyll-Search/blob/master/example/search.json)
 
-这个配置文件代表可以搜索博客的标题、标签、时间、分类。
+这个配置文件代表可以按博客的标题、标签、时间、分类搜索。
 
-### 配置index.html
+### 下载simple-jekyll-searchj文件
+
+[下载这整个文件夹](https://github.com/christian-fei/Simple-Jekyll-Search/tree/master/example/js)，里面包含simple-jekyll-search.min.js和simple-jekyll-search.js两个文件，连同js文件夹放在你的根目录下面。
+
+### 配置搜索框标签
+
+在你想展示搜索框的页面我的是index.html，这个页面和每个人的博客模板有关，可能需要一点前端知识，添加如下的html标签。
 
 ```html
 <div class="search-container">
@@ -135,27 +157,35 @@ url: https://yourname.github.io
 </script>
 ```
 
+其中，以下两个是二选一的，一个是用云端的js一个是用本地的js如果本地有的话。
+
+`<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script--> `
+
+`<script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>`
+
+配置完成，打开博客，你得到这样一个搜索框。
+
+![20191126232418](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages20191126232418.png)
+
 ## 搜索框样式
 
-[html插入样式方法](https://blog.csdn.net/u014103733/article/details/72961366)
+搜索框的样式是可以改变的，这里有修改HTML中CSS样式的方法，我搞后端的，前端现学现卖。
 
-参考：[jekyll search搭建](https://cloud.tencent.com/developer/article/1119290)
+[html插入标签样式方法](https://blog.csdn.net/u014103733/article/details/72961366)
 
 
 
 ## 社交链接
 
-以增加zhihu链接为例
+模板提供的链接没有知乎链接，或者你想增加自定义的链接，都可以通过以下方法添加。以增加zhihu链接为例
 
-[svg icon仓库](https://github.com/FortAwesome/Font-Awesome/blob/516a62816c76255dc92ed55b906e9dca5a21b28b/svgs/brands/zhihu.svg)
+链接的图片是svg格式的(我也刚知道)，大概了解一下什么是svg和viewBox
 
 [viewBox](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Attribute/viewBox)
 
 > viewBox属性的值是一个包含4个参数的列表 `min-x`, `min-y`, `width` and `height`， 以空格或者逗号分隔开， 在用户空间中指定一个矩形区域映射到给定的元素,查看属性 
 
 [深入简出 SVG 教程](https://zhuanlan.zhihu.com/p/36138381)
-
-修改root目录下index.html
 
 ### 配置_config.yml
 
@@ -167,7 +197,16 @@ footer-links:
 
 ### 修改svg-icons.html
 
-文件路径在_include/svg-icons.html下，增加zhihu链接
+因为footer.html内容：
+
+```
+{% include svg-icons.html %}
+{% if site.footer-text %}
+<p>{{ site.footer-text }}</p>
+{% endif %}
+```
+
+可见是先调用了svg-icon.html显示社交链接，所以修改_include/svg-icons.html增加zhihu链接
 
 ```html
 {% if site.footer-links.zhihu %}
@@ -175,23 +214,19 @@ footer-links:
   {% endif %}
 ```
 
+上面配置内容应该都能理解，`viewBox` 指定图片大小。
+
+主要是`path d=` 内容的获取，这里其实是指定svg图片的内容，我们可以从 [这里](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/)获取到大部分svg素材，比如知乎的svg[在这](https://github.com/FortAwesome/Font-Awesome/blob/master/svgs/brands/zhihu.svg)，点`raw` 按钮查看源文件，复制`path d=`后面的内容到上面的配置即可。
+
 
 
 ## 添加网站计数
 
-[html颜色表](http://xh.5156edu.com/page/z1015m9220j18754.html)
+网站统计[由不蒜子](http://busuanzi.ibruce.info/)提供支持，就是可以统计网站当前访问次数和人数。配置也非常简单，[官方指引](http://ibruce.info/2015/04/04/busuanzi/#more)在这里。
 
-[html style属性](https://www.geeksforgeeks.org/html-style-attribute/)
+### 修改页面html
 
-eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;width:200px;background-color:gray;`
-
-### 不算子
-
-统计原理，[官方指引](http://ibruce.info/2015/04/04/busuanzi/#more)
-
-### 修改根目录下index.html
-
-增加如下内容：
+想让统计显示在哪个页面，需要修改那个页面的html，增加如下内容：
 
 ```html
 <!--不算子网站访客统计-->
@@ -209,7 +244,11 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 </div>
 ```
 
+### style标签说明
 
+可以通过style标签改变字体颜色与大小。具体参考:[html颜色表](http://xh.5156edu.com/page/z1015m9220j18754.html)和[html style属性](https://www.geeksforgeeks.org/html-style-attribute/)
+
+eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;width:200px;background-color:gray;`
 
 
 
@@ -217,15 +256,11 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 
 [PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)
 
-
-
 ## 其他功能
 
 [小功能](https://blog.csdn.net/ds19991999/article/details/81293467)
 
 [好用的github插件](https://blog.csdn.net/u012702547/article/details/100533763)
-
-
 
 ## 网站结构
 
@@ -238,3 +273,7 @@ _include/svg-icons.html生成社交头像的链接
 ## 问题汇总
 
 [jekyll端口被占用EACCES](https://www.iteye.com/blog/ywsm-510670)
+
+## 参考
+
+[Jekyll 静态博客实现搜索功能](https://cloud.tencent.com/developer/article/1119290)
