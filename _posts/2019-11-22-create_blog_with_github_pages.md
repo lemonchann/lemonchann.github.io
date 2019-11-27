@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "从0开始利用github pages搭建个人博客"
+title: "可能是最全面的github pages搭建个人博客教程"
 date:   2019-11-22
 tags: [geek]
 comments: true
 author: lemonchann
 ---
 
-用github pages 来写博客非常简单，搭建也是十分容易。follow me.
+傻瓜式一站式教你用github pages 来搭建博客。详细记录全过程。
 
 <!-- more -->
 
@@ -114,7 +114,76 @@ url: https://yourname.github.io
 
 **看到这里，如果只是简单的想写博客，后面的不看也可以了，后面章节是记录一些DIY的过程。**
 
+## 本地博客预览
 
+到目前为止，我们提交的文章都是必须上传到github仓库才能预览。如果你想写完在本地浏览器看一下效果在上传也是可以的，因为不是所有人都有这样的需求。
+
+###  安装 Ruby 和 DevKit
+
+在官网下载，[点这里]( https://rubyinstaller.org/downloads/ )下载适合系统版本的 [Ruby+Devkit](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.5-1/rubyinstaller-devkit-2.6.5-1-x64.exe) 包。安装，弹出的窗口选3
+
+![安装ruby](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/%E5%AE%89%E8%A3%85ruby.PNG)
+
+`gem -v` `ruby -v` 查看得到版本号就说明成功了。
+
+如果是在墙内，需要切换安装源到https://gems.ruby-china.com/。墙外请忽略。
+
+`gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/` 切换安装源
+
+`gem sources -l` 查看版本
+
+### bundler安装
+
+`gem install bundler` 安装bundler 
+
+`bundle -v 查看版本
+ bundle config mirror.https://rubygems.org https://gems.ruby-china.com` 切换安装源
+
+### 安装jekyll
+
+` gem install jekyll`
+
+![jekyll安装](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll%E5%AE%89%E8%A3%85.PNG)
+
+### 预览博客
+
+` jekyll server` 输入之后打开浏览器，不出意外输入localhost:4000即可看到博客内容。
+
+![jekyll_server安装](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_server%E6%88%90%E5%8A%9F.PNG)
+
+如果你没这么顺利，那以下的错误解决供参考
+
+#### 常见错误
+
+- 缺少某个包
+
+![jekyll_error](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_error.PNG)
+
+如图，缺少jekyll-paginate，安装即可`gem install jekyll-paginate`若还提示缺少就装啥。
+
+![jekyll_server_erro错误2](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_server_erro%E9%94%99%E8%AF%AF2.PNG)
+
+- 权限拒绝
+
+  socket.rb:201:in `bind` :Permission denied - bind(2) for 127.0.0.1:4000 (Error:EACCES)
+
+![jekyll_error_EASSE](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_error_EASSE.png)
+
+出现这个错误一般是4000端口被占用了，解决方法：
+
+1.  netstat -ano|findstr "4000" 找到占用4000端口的进程ID
+
+2. 查看最后一列数字就是PID=312964
+
+   ![](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9F%A5%E7%9C%8Bnetstat.png)
+
+3. 打开windows资源管理器，结束该进程.
+
+   ![任务管理器](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%99%A8.png)
+
+4. `$ tasklist|findstr 312964`也能查看进程名，查到结束掉他同步骤3.
+
+   
 
 ## 搜索功能集成
 
@@ -197,14 +266,7 @@ footer-links:
 
 ### 修改svg-icons.html
 
-因为footer.html内容：
-
-```
-{% include svg-icons.html %}
-{% if site.footer-text %}
-<p>{{ site.footer-text }}</p>
-{% endif %}
-```
+因为footer.html中调用了svg-icons.html来生成社交链接。
 
 可见是先调用了svg-icon.html显示社交链接，所以修改_include/svg-icons.html增加zhihu链接
 
@@ -256,7 +318,11 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 
 ## 如何传图片
 
-[PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)
+写markdown最头疼的就是图片的插入了，推荐用[PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)一键上传得到链接，直接可以插入markdown。
+
+PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图床或云端。直接拖图片，上传云端、得到链接一步搞定，方便快捷。
+
+![PicGo](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/PicGo.png)
 
 ## 其他功能
 
@@ -271,11 +337,3 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 _include/footer.html生成侧边栏
 
 _include/svg-icons.html生成社交头像的链接
-
-## 问题汇总
-
-[jekyll端口被占用EACCES](https://www.iteye.com/blog/ywsm-510670)
-
-## 参考
-
-[Jekyll 静态博客实现搜索功能](https://cloud.tencent.com/developer/article/1119290)
