@@ -7,8 +7,6 @@ comments: true
 author: lemonchann
 toc: true
 ---
-## 为什么要用Markdown
-
 **Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。markdown是为那些需要经常码字或者进行文字排版的、对码字手速和排版顺畅度有要求的人群设计的，他们希望用键盘把文字内容打出来后就已经排版好了，最好从头到尾都不要使用鼠标。这些人包括经常需要写文档的码农、博客写手、网站小编、出版业人士等等** 参考[**百度百科**](https://baike.baidu.com/item/markdown/3245829?fr=aladdin)
 
 <!-- more -->

@@ -7,9 +7,7 @@ comments: true
 author: lemonchann
 ---
 
-### VsCode
-
-强大地自定义功能，已经成为程序员最爱编辑器。   
+VsCode 强大地自定义功能，已经成为程序员最爱编辑器。   
 Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studio Code 项目:一个运行于 Mac OS X、Windows和Linux之上的，针对于编写现代 Web 和云应用的跨平台源代码编辑器。   
 
 <!-- more -->

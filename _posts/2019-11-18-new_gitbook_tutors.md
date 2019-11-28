@@ -8,9 +8,7 @@ author: lemonchann
 
 ---
 
-## 什么是Gitbook
-
-简单说就是可以把用md写的多个文档组织成**书**发布，md你可以放在github管理，配置gitbook关联github可以实现实时commit的预览生成。也可本地预览，甚至生成各种格式文档输出的强大工具。
+什么是Gitbook? 简单说就是可以把用md写的多个文档组织成**书**发布，md你可以放在github管理，配置gitbook关联github可以实现实时commit的预览生成。也可本地预览，甚至生成各种格式文档输出的强大工具。
 
 <!-- more -->
 

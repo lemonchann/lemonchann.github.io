@@ -7,7 +7,7 @@ comments: true
 author: lemonchann
 ---
 
-傻瓜式一站式教你用github pages 来搭建博客。详细记录全过程。
+傻瓜式一站式教你用github pages 来搭建博客，详细记录全过程。
 
 <!-- more -->
 

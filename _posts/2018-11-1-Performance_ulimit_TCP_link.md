@@ -7,12 +7,11 @@ comments: true
 author: lemonchann
 ---
 
-## TCP连接数限制
-
-Linux系统中tcp连接数是有最大限制的，即是进程可打开的最大文件描述个数，以下命令查看   
-> ulimit -n
+Linux系统中tcp连接数是有最大限制的，即是进程可打开的最大文件描述个数，通过命令`ulimit -n`查看
 
 <!-- more -->
+
+## TCP连接数限制
 
 高负载的服务器通过修改ulimit参数达到合理规划用户使用资源和系统资源的目的。
 
