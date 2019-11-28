@@ -11,6 +11,36 @@ author: lemonchann
 
 <!-- more -->
 
+## 开始
+
+先看下博客整体效果。[**点击在线预览我的博客**]( https://lemonchann.github.io/ )
+
+![blogPage](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/blogPage.png)
+
+### 支持特性
+
+- 简约风格博客
+
+- Powered By Jekyll
+
+- 博客文章搜索
+
+- 自定义社交链接
+
+- 网站访客统计
+
+- Google Analytics 网站分析
+
+- Gitalk评论功能
+
+- 自定义关于about页面
+
+- 支持中文布局
+
+- 支持归档与标签
+
+  
+
 ## 建立博客Git仓库
 
 首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。你可以直接fork我的博客仓库。这样你马上有了自己的博客仓库。
@@ -337,3 +367,9 @@ PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图�
 _include/footer.html生成侧边栏
 
 _include/svg-icons.html生成社交头像的链接
+
+## 致谢
+
+感谢Jekyll提供的技术支持才能有这个博客。
+
+感谢[LOFFER](https://fromendworld.github.io/LOFFER/document/)提供的原始模板，我在其上进行的二次开发。
