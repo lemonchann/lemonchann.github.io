@@ -49,7 +49,7 @@ author: lemonchann
 
 ![fork博客](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/fork%E5%8D%9A%E5%AE%A2.png)
 
-**注意**： fork之后_posts文件夹内容是我的博客文件，你需要删除。版权归我所有，转载需注明出处。
+**版权声明： fork之后_posts文件夹内容是我的博客文章，版权归我所有。你可以选择删除里面的文章替换上自己的或者转载附上链接注明出处。 **
 
 ## 修改博客仓库名称
 
