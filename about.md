@@ -12,7 +12,7 @@ Linux后端分布式高性能服务开发，差一点精通C++，Python小玩具
 
 ### 经历
 
-软件工程师(Software Engineer)，14年获电子信息工程学士学位( Electronic and Information Engineering )，先后从事通信设备服务端程序开发工作，现就职腾讯（Tencent）公司，从事Linux服务器后台开发工作。
+软件工程师(Software Engineer)，电子信息工程学士学位( Electronic and Information Engineering )，通信设备服务端程序开发和互联网服务后台开发，现就职腾讯（Tencent）公司从事社交产品服务器后台开发工作。
 
 ### 版权声明
 
