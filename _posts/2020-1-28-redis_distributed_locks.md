@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "redis分布式锁3种实现方式分析"
+title: "redis分布式锁3种实现方式对比分析总结"
 date:   2020-1-28
 tags: [后台开发]
 comments: true
 author: lemonchann
 ---
 
-大家春节在家抢红包玩的不亦乐乎，简单的抢红包动作看起来非常简单，实际上要做好这个服务，特别是money相关服务是不允许出错的，想想看每个红包的数字都是真金白银，要求服务的鲁棒性非常高，背后包含的很多后台服务技术细节可以写。
+大家春节在家抢红包玩的不亦乐乎，抢红包服务看起来非常简单，实际上要做好这个服务，特别是money相关服务是不允许出错的，想想看每个红包的数字都是真金白银，要求服务的鲁棒性非常高，背后包含着很多后台服务技术细节。
 
 <!-- more -->
 
-抛砖引玉，今天就来说说其中一个技术细节，也是在我的上一篇文章[Linux后台开发C++学习路线技能加点](https://zhuanlan.zhihu.com/p/102048769)中提到但没展开讲的高并发编程中的**redis分布式锁**。
+抛砖引玉，今天就来说说其中一个技术细节，也是在我另一篇文章[Linux后台开发C++学习路线技能加点](https://zhuanlan.zhihu.com/p/102048769)中提到但没展开讲的，高并发服务编程中的**redis分布式锁**。
 
 这里罗列出**3种redis实现的分布式锁**，并分别对比说明各自特点。
 
@@ -76,7 +76,7 @@ set用法参考[官方文档](https://redis.io/commands/set)
 - `NX` – Only set the key if it does not already exist.
 - `XX` – Only set the key if it already exist.
 - `EX` *seconds* – 设置键key的过期时间，单位时秒
-- `PX` *milliseconds* – 设置键key的过期时间，单位时毫秒
+- `PX` *milliseconds* – 设置键key的过期时间，单位是毫秒
 - `NX` – 只有键key不存在的时候才会设置key的值
 - `XX` – 只有键key存在的时候才会设置key的值
 

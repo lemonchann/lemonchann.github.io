@@ -7,17 +7,15 @@ comments: true
 author: lemonchann
 ---
 
-文章是由自己笔试面试腾讯的笔记整理而来，整理的时候又回顾了一遍，中间工作忙断断续续整理了半个月，才完成现在的样子。主要是针对面试的C++后台开发岗位，涵盖了大部分C++相关的可能会被问到的技术点，作为面试技术的参考回头查阅。
+**文章是由我笔试面试腾讯笔记整理而来，主要是针对面试的C++后台开发岗位，涵盖了大部分C++后台开发相关的，可能会考察和被问到的技术点。**
 
-这篇笔记是基础C++知识点总结，没有过多的阐述后台开发的系统架构和分布式后台服务设计相关，还有c++11新特性，这些笔试面试也会被问到但不在这篇讨论范围，可以关注专栏后面如果有机会再补上。
+**自认为这篇笔记比较全面的涵盖了，后台开发C++笔试面试大部分知识点，不管你是已经工作准备参加社招，还是在校学生准备参加校招，笔记都可以作为技术面试准备阶段参考查阅，查缺补漏。**
+
+笔记是基础C++知识点总结，没有过多的阐述后台开发的系统架构，和分布式后台服务设计相关内容，以及C++11新特性，这些在笔试面试也会被问到但不在这篇讨论范围，可以关注我后面有机会补上。
 
 ### 阅读提示
 
 文章约12839字，阅读时长预计33分钟。建议关注收藏方便回头查阅。
-
-### 为什么析构函数要是虚函数？
-
-基类指针可以指向派生类的对象（多态性），如果删除该指针delete []p；就会调用该指针指向的派生类析构函数，而派生类的析构函数又自动调用基类的析构函数，这样整个派生类的对象完全被释放。如果析构函数不被声明成虚函数，则编译器实施静态绑定，在删除基类指针时，只会调用基类的析构函数而不调用派生类析构函数，这样就会造成派生类对象析构不完全。所以，将析构函数声明为虚函数是十分必要的。
 
 ### gdb调试命令
 
@@ -27,59 +25,59 @@ author: lemonchann
 
 #### 查看内存
 
-(gdb)p &a //打印变量地址
+> (gdb)p &a                                      //打印变量地址
 
-(gdb)x 0xbffff543 //查看内存单元内变量
+> (gdb）x 0xbffff543                         //查看内存单元内变量
 
-0xbffff543: 0x12345678
+> 0xbffff543: 0x12345678
 
-(gdb) x /4xb 0xbffff543 //单字节查看4个内存单元变量的值
+> (gdb) x /4xb 0xbffff543                   //单字节查看4个内存单元变量的值
 
-0xbffff543: 0x78 0x56 0x34 0x12
+> 0xbffff543: 0x78 0x56 0x34 0x12
 
 #### 多线程调试
 
-(gdb) info threads：查看GDB当前调试的程序的各个线程的相关信息
+> (gdb) info threads：查看GDB当前调试的程序的各个线程的相关信息
 
-(gdb) thread threadno：切换当前线程到由threadno指定的线程
+> (gdb) thread threadno：切换当前线程到由threadno指定的线程
 
-break filename:linenum thread all   在所有线程相应行设置断点，注意如果主线程不会执行到该行，并且启动all-stop模式，主线程执行n或s会切换过去
+> break filename:linenum thread all   在所有线程相应行设置断点，注意如果主线程不会执行到该行，并且启动all-stop模式，主线程执行n或s会切换过去
 
-set scheduler-locking off|on\step    默认off，执行s或c其它线程也同步执行。on，只有当前相称执行。step，只有当前线程执行
+> set scheduler-locking off|on\step    默认off，执行s或c其它线程也同步执行。on，只有当前相称执行。step，只有当前线程执行
 
-show scheduler-locking          显示当前模式
+> show scheduler-locking          显示当前模式
 
-thread apply all command        每个线程执行同意命令，如bt。或者thread apply 1 3 bt，即线程1，3执行bt。
+> thread apply all command        每个线程执行同意命令，如bt。或者thread apply 1 3 bt，即线程1，3执行bt。
 
 #### 查看调用堆栈
 
-(gdb)bt 
+> (gdb)bt 
 
-(gdb)f 1 帧简略信息
+> (gdb)f 1                 //帧简略信息
 
-(gdb)info f 1 帧详细信息
+> (gdb)info f 1          //帧详细信息
 
 #### 断点
 
-b test.cpp:11
+> b test.cpp:11
 
-b test.cpp:main
+> b test.cpp:main
 
 gdb attach 调试方法：
 
-gdb->file xxxx->attach pid->这时候进程是停止的->c 继续运行
+> gdb->file xxxx->attach pid->**这时候进程是停止的**->c 继续运行
 
 #### 带参数调试
 
 输入参数命令set args 后面加上程序所要用的参数，注意，不再带有程序名，直接加参数，如：
 
-(gdb)set args -l a -C abc
+> (gdb)set args -l a -C abc
 
 #### list命令
 
-list　linenum　　显示程序第linenum行的周围的程序
+> list　linenum　　//显示程序第linenum行的周围的程序
 
-list　function　　显示程序名为function的函数的源程序
+> list　function　　//显示程序名为function的函数的源程序
 
 
 
@@ -91,23 +89,23 @@ list　function　　显示程序名为function的函数的源程序
 
 ln -s 源文件 目标文件, ln -s / /home/good/linkname链接根目录/到/home/good/linkname 
 
-1、软链接就是：“ln –s 源文件 目标文件”，只会在选定的位置上生成一个文件的镜像，不会占用磁盘空间，类似与windows的快捷方式。
+1. 软链接就是：“ln –s 源文件 目标文件”，只会在选定的位置上生成一个文件的镜像，不会占用磁盘空间，类似与windows的快捷方式。
 
-2、硬链接ln源文件目标文件，没有参数-s， 会在选定的位置上生成一个和源文件大小相同的文件，无论是软链接还是硬链接，文件都保持同步变化。
+2. 硬链接ln源文件目标文件，没有参数-s， 会在选定的位置上生成一个和源文件大小相同的文件，无论是软链接还是硬链接，文件都保持同步变化。
 
 
 
 ### 函数指针  
 
-函数指针 int (*func)(int, int)
+ int (*func)(int, int)   				  //函数指针
 
-函数指针数组 int (*funcArry[10])(int, int)
+ int (*funcArry[10])(int, int)       //函数指针数组
 
-const int* p; 指向const int的指针
+const int* p;      						  //指向const int的指针
 
-int const* p; 同上
+int const* p;      						  //同上
 
-int* const p; const指针
+int* const p;     					        //const指针
 
  
 
@@ -438,7 +436,13 @@ list是由双向链表实现的，因此内存空间是不连续的。
 
 class LayerManager : public ILayerManager｛｝;
 
- 
+
+
+####  为什么析构函数要是虚函数？
+
+基类指针可以指向派生类的对象（多态性），如果删除该指针delete []p；就会调用该指针指向的派生类析构函数，而派生类的析构函数又自动调用基类的析构函数，这样整个派生类的对象完全被释放。如果析构函数不被声明成虚函数，则编译器实施静态绑定，在删除基类指针时，只会调用基类的析构函数而不调用派生类析构函数，这样就会造成派生类对象析构不完全。所以，将析构函数声明为虚函数是十分必要的。
+
+
 
 #### 覆盖虚函数机制
 
@@ -446,39 +450,22 @@ class LayerManager : public ILayerManager｛｝;
 
 本，这里可以使用作用域操作符：
 
+```c++
 Item_base *baseP = &derived;
 
-// calls version from the base class regardless of the dynamic type
-
-of baseP
-
+// calls version from the base class regardless of the dynamic type of baseP
 double d = baseP->Item_base::net_price(42);
+```
 
 这段代码强制将 net_price 调用确定为 Item_base 中定义的版本，该调用
 
-将在编译时确定。
+将在编译时确定。**只有成员函数中的代码才应该使用作用域操作符覆盖虚函数机制。**
 
-只有成员函数中的代码才应该使用作用域操作符覆盖虚函数机制。
+**为什么会希望覆盖虚函数机制？最常见的理由是为了派生类虚函数调用基类中的版本。**在这种情况下，基类版本可以完成继承层次中所有类型的公共任务，而每个派生类型只添加自己的特殊工作。
 
-为什么会希望覆盖虚函数机制？最常见的理由是为了派生类虚函数调用基
+例如，可以定义一个具有虚操作的 Camera 类层次。Camera 类中的 display函数可以显示所有的公共信息，派生类（如 PerspectiveCamera）可能既需要显示公共信息又需要显示自己的独特信息。可以显式调用 Camera 版本以显示公共信息，而不是在 PerspectiveCamera 的 display 实现中复制 Camera 的操作。
 
-类中的版本。在这种情况下，基类版本可以完成继承层次中所有类型的公共任务，
-
-而每个派生类型只添加自己的特殊工作。例如，可以定义一个具有虚操作的 Camera 类层次。Camera 类中的 display
-
-函数可以显示所有的公共信息，派生类（如 PerspectiveCamera）可能既需要显
-
-示公共信息又需要显示自己的独特信息。可以显式调用 Camera 版本以显示公共
-
-信息，而不是在 PerspectiveCamera 的 display 实现中复制 Camera 的操作。
-
-在这种情况下，已经确切知道调用哪个实例，因此，不需要通过虚函数机制。
-
-派生类虚函数调用基类版本时，必须显式使用作用域操作符。
-
-如果派生类函数忽略了这样做，则函数调用会在运行时确定并
-
-且将是一个自身调用，从而导致无穷递归。
+在这种情况下，已经确切知道调用哪个实例，因此，不需要通过虚函数机制。派生类虚函数调用基类版本时，必须显式使用作用域操作符。如果派生类函数忽略了这样做，则函数调用会在运行时确定并且将是一个自身调用，从而导致无穷递归。
 
  
 
@@ -529,6 +516,8 @@ struct Derived : Base
 作用域操作符指示编译器在 Base 中查找 mem。
 
 设计派生类时，只要可能，最好避免与基类数据成员的名字相同
+
+
 
 #### 类成员函数的重载、覆盖和隐藏区别？
 
