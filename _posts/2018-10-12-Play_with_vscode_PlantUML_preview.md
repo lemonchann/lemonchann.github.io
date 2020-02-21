@@ -7,14 +7,21 @@ comments: true
 author: lemonchann
 ---
 
-VsCode 强大地自定义功能，已经成为程序员最爱编辑器。   
-Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studio Code 项目:一个运行于 Mac OS X、Windows和Linux之上的，针对于编写现代 Web 和云应用的跨平台源代码编辑器。   
+软件设计过程中，有好几种图需要画，比如流程图、类图、组件图等，我知道大部分人画流程图一般都会用微软的viso绘制，我之前也是这个习惯，viso画图有个不好的地方是需要时刻去调整线条和边框已达到简洁美观，今天我给大家介绍一款程序员画图神器PlantUML，一款你用了就爱上的画图软件！
 
-<!-- more -->
+VsCode以插件的形式支持了这款画图神器，还不知道VsCode？
 
-该编辑器也集成了所有一款现代编辑器所应该具备的特性，包括语法高亮(syntax high lighting)，可定制的热键绑定(customizable keyboard bindings)，括号匹配(bracket matching)以及代码片段收集(snippets)。Somasegar 也告诉笔者这款编辑器也拥有对 Git 的开箱即用的支持。引用[360百科](https://baike.so.com/doc/24428308-25261478.html)
+> VsCode 强大地自定义功能，已经成为程序员最爱编辑器。   
+> Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studio Code 项目:一个运行于 Mac OS X、Windows和Linux之上的，针对于编写现代 Web 和云应用的跨平台源代码编辑器。   
+
+>  该编辑器也集成了所有一款现代编辑器所应该具备的特性，包括语法高亮(syntax high lighting)，可定制的热键绑定(customizable keyboard bindings)，括号匹配(bracket matching)以及代码片段收集(snippets)。Somasegar 也告诉笔者这款编辑器也拥有对 Git 的开箱即用的支持。引用[360百科](https://baike.so.com/doc/24428308-25261478.html)
+
+
+
+## 主角出场
 
 ### PlantUML
+
 **PlantUML是一个开源项目，支持快速绘制：**
 
 >时序图
@@ -82,3 +89,4 @@ Alice <-- Bob: another authentication Response
 
 
 
+#### 好了，这么好用工具赶紧用起来吧！
