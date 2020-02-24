@@ -63,8 +63,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: bd65d5c0df878155b7fa
-  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+  clientID: 5d1d13e330f61b2a5559
+  clientSecret: 2fcc89e2167767ecf8b3f28bf9277d51042edc1d
   repo: Milaaaaaa.github.io
   owner: Milaaaaaa
 
