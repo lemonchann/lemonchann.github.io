@@ -12,10 +12,10 @@ description: "learning and practicing make skillfull"
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/Milaaaaaa/Milaaaaaa.github.io/images/blog.jpg
+avatar: https://github.com/Milaaaaaa/Milaaaaaa.github.io/tree/master/images/blog.jpg
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://github.com/Milaaaaaa/Milaaaaaa.github.io/images/favicon.ico
+favicon: https://github.com/Milaaaaaa/Milaaaaaa.github.io/tree/master/images/favicon.ico
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
