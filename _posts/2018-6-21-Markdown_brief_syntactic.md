@@ -60,6 +60,10 @@ toc: true
 - **插入图片**   
 >语法: `![image](uri)` 语法上和插入链接只是多了个！ 插入图片的方法有很多种，csdn markdown提供插入图片功能，也可以注册各种图床（网上搜索说是七牛云最好用，没用过不发表）我这里说一种脑回路清奇的用GitHub当图床插入图片的方法。原链接参考[知乎](https://www.zhihu.com/question/21065229/answer/61070700?utm_medium=social&utm_source=wechat_session)   
 
+- **插入表情**
+
+> :smile: :smile_cat: 
+
 ### 以我的实践举个图片插入的栗子：
 
 1. 将markdown需要用的图片放到git仓库中，发布到github上

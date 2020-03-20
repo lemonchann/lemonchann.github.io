@@ -179,7 +179,7 @@ url: https://yourname.github.io
 
 ` jekyll server` 输入之后打开浏览器，不出意外输入localhost:4000即可看到博客内容。
 
-![jekyll_server安装](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_server%E6%88%90%E5%8A%9F.PNG)
+![jekyll_server成功](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_server%E6%88%90%E5%8A%9F.PNG)
 
 如果你没这么顺利，那以下的错误解决供参考
 
@@ -205,7 +205,7 @@ url: https://yourname.github.io
 
 2. 查看最后一列数字就是PID=312964
 
-   ![](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9F%A5%E7%9C%8Bnetstat.png)
+   ![查看netstat](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9F%A5%E7%9C%8Bnetstat.png)
 
 3. 打开windows资源管理器，结束该进程.
 

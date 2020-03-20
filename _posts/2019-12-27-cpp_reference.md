@@ -958,11 +958,11 @@ virtual member function虚成员函数normalize()的调用实际上转换成：
 
 (*ptr->vpter[1])(ptr)
 
-![](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-12-27-cpp_reference/%E6%88%90%E5%91%98%E8%99%9A%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88.png)
+![成员虚函数指针](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-12-27-cpp_reference/%E6%88%90%E5%91%98%E8%99%9A%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88.png)
 
 函数指针也有差别，下面第一个是普通函数指针或者static member function。第二个是non-static member function成员函数指针。
 
-![](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-12-27-cpp_reference/%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88.png)
+![成员函数指针](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-12-27-cpp_reference/%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88.png)
 
 
 
