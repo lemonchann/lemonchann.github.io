@@ -7,7 +7,7 @@ comments: true
 author: lemonchann
 ---
 
-傻瓜式一站式教你用github pages 来搭建博客，详细记录全过程。
+作为一个程序员怎么能没有自己的个人博客呢，这里详细记录和分享我的博客搭建经验，让你轻轻松松拥有自己的博客网站。	傻瓜式一站式教你用github pages 来搭建博客，详细记录全过程。
 
 <!-- more -->
 
@@ -204,7 +204,6 @@ url: https://yourname.github.io
 1.  netstat -ano|findstr "4000" 找到占用4000端口的进程ID
 
 2. 查看最后一列数字就是PID=312964
-
    ![查看netstat](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9F%A5%E7%9C%8Bnetstat.png)
 
 3. 打开windows资源管理器，结束该进程.
