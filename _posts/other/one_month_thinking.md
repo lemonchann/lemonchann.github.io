@@ -1,8 +1,8 @@
 ### 艰难开通的公众号
 
 我一直有写技术博客的习惯，很早之前也尝试开通公众号写作，不过那时候公众号申请要用银行卡验证实名信息，很不幸我的招行卡不支持验证，于是这事一直搁置。还保留有当时截图了申请不过的页面
+![申请公号不过](https://upload-images.jianshu.io/upload_images/7842464-bc49115d8049ef78.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![申请公号不过](F:\github\lemonchann.github.io\_posts\other\申请公号不过.jpg)
 
 直到今年疫情期间在家，试着去申请发现微信竟然支持招行卡验证了，我的公众号就这么开通了，听说18年之前开通是有评论功能的，想想我第一次申请应该是18年之前，那时候因招行卡不支持搁浅，心痛。
 
@@ -26,7 +26,8 @@
 
 里面有一张关于「学习内容留存率」和「学习方式」的金字塔关系：
 
- ![图片来自网络|百度百科](https://bkimg.cdn.bcebos.com/pic/b90e7bec54e736d193aa0f1f94504fc2d5626968?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5) 
+![学习方式 | 来源百度百科](https://upload-images.jianshu.io/upload_images/7842464-725b737f5daf342c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 按照这个理论，最好的学习方式是「主动学习」并且是「教授给他人」，这种方式学到的知识留存率最高，你能记住很久，大概和「把书读薄」有异曲同工的意思。
 
@@ -36,7 +37,8 @@
 
 另外对于「坚持」这事我还是很有信心的，只要是我认定去做的事都会一直做下去。比如两年前决定坚持每天看两篇国外原版英语文章，因为我渣渣CET6看原版外文吃力的很，直到现在我每天还在做着这事。这里顺便说下我认为英语真的很重要，尤其是做软件技术这一行，一手的资源几乎都是英语世界的，查问题看源码你上stackoverflow、github都需要一定的外语阅读能力。
 
-![打卡](F:\github\lemonchann.github.io\_posts\other\打卡.jpg)
+![英语学习打卡](https://upload-images.jianshu.io/upload_images/7842464-7909cdf70cf529e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 所以今天先把Flag立在这里，我这个号会维持「每周至少一篇原创文章」的更新频率，文章范畴大部分是技术类，有时候会出来唠唠嗑，就像今天这样，为什么要唠呢，因为我不是服务号我不想给读者冷冰冰机器人的印象，况且我热乎着呢。
 
