@@ -12,7 +12,7 @@ author: lemonchann
 使用Linux的同学应该对linux的`date`命令不会陌生，经常需要在命令行敲一下这个命令获取当前时间。然而这只是他的能力冰山一角。
 
 ```bash
-[llchan@localhost ~]$ date 
+[lemon@localhost ~]$ date 
 2020年 02月 12日 星期三 19:51:46 CST
 ```
 
@@ -23,7 +23,7 @@ author: lemonchann
 #### 获取时间戳，1970年1月1日0点0分0秒到现在历经的秒数
 
 ```bash
-[llchan@localhost ~]$ date +%s
+[lemon@localhost ~]$ date +%s
 1581508426
 ```
 
@@ -32,7 +32,7 @@ author: lemonchann
 #### 时间戳还原，把刚才的秒数还原成时间字符串
 
 ```bash
-[llchan@localhost ~]$ date -d "@1581508426"
+[lemon@localhost ~]$ date -d "@1581508426"
 2020年 02月 12日 星期三 19:53:46 CST
 ```
 
@@ -41,10 +41,10 @@ author: lemonchann
 #### 指定的时间字符串转换成时间戳
 
 ```bash
-[llchan@localhost ~]$ date -d '02/22/2222 07:21:22' +%s
+[lemon@localhost ~]$ date -d '02/22/2222 07:21:22' +%s
 7956832882
 #或者
-[llchan@localhost ~]$ date -d '2222-02-22 07:21:22' +"%s"
+[lemon@localhost ~]$ date -d '2222-02-22 07:21:22' +"%s"
 7956832882
 ```
 
@@ -53,11 +53,11 @@ author: lemonchann
 #### 格式化输出时间格式
 
 ```bash
-[llchan@localhost ~]$ date "+%Y-%m-%d"
+[lemon@localhost ~]$ date "+%Y-%m-%d"
 2020-02-12
-[llchan@localhost ~]$ date "+%H:%M:%S"
+[lemon@localhost ~]$ date "+%H:%M:%S"
 20:01:53
-[llchan@localhost ~]$ date "+%Y-%m-%d %H:%M:%S"
+[lemon@localhost ~]$ date "+%Y-%m-%d %H:%M:%S"
 2020-02-12 20:02:06
 ```
 
@@ -144,11 +144,11 @@ author: lemonchann
 #### 获取相对当前时间的明天的时间
 
 ```bash
-[llchan@localhost ~]$ date -d next-day
+[lemon@localhost ~]$ date -d next-day
 2020年 02月 13日 星期四 20:08:35 CST
 
 #你可以指定输出格式，比如
-[llchan@localhost ~]$ date -d next-day +%Y%m%d
+[lemon@localhost ~]$ date -d next-day +%Y%m%d
 20200213
 ```
 
@@ -157,11 +157,11 @@ author: lemonchann
 #### 获取相对于当前时间的昨天的时间
 
 ```bash
-[llchan@localhost ~]$ date -d last-day
+[lemon@localhost ~]$ date -d last-day
 2020年 02月 11日 星期二 20:11:35 CST
 
 #你也可以指定输出格式，比如
-[llchan@localhost ~]$ date -d last-day +%Y%m%d
+[lemon@localhost ~]$ date -d last-day +%Y%m%d
 20200211
 ```
 
@@ -170,11 +170,11 @@ author: lemonchann
 #### 获取相对当前时间的上个月的时间
 
 ```bash
-[llchan@localhost ~]$ date -d last-month
+[lemon@localhost ~]$ date -d last-month
 2020年 01月 12日 星期日 20:13:20 CST
 
 #同样的你也可以指定输出格式，比如
-[llchan@localhost ~]$ date -d last-month +%Y-%m-%d
+[lemon@localhost ~]$ date -d last-month +%Y-%m-%d
 2020-01-12
 ```
 
@@ -183,10 +183,10 @@ author: lemonchann
 #### 获取相对当前时间的下个月的时间
 
 ```bash
-[llchan@localhost ~]$ date -d next-month
+[lemon@localhost ~]$ date -d next-month
 2020年 03月 12日 星期四 20:15:44 CST
 
-[llchan@localhost ~]$ date -d next-month "+%Y-%m-%d %H:%M:%S"
+[lemon@localhost ~]$ date -d next-month "+%Y-%m-%d %H:%M:%S"
 2020-03-12 20:15:38
 ```
 
@@ -195,7 +195,7 @@ author: lemonchann
 #### 获取相对当前时间的明年的时间
 
 ```bash
-[llchan@localhost ~]$ date -d next-year
+[lemon@localhost ~]$ date -d next-year
 2021年 02月 12日 星期五 20:17:21 CST
 ```
 
@@ -204,7 +204,7 @@ author: lemonchann
 #### 获取相对当前时间的上一年的时间
 
 ```bash
-[llchan@localhost ~]$ date -d last-year
+[lemon@localhost ~]$ date -d last-year
 2019年 02月 12日 星期二 20:17:29 CST
 ```
 
