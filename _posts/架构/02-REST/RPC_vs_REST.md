@@ -1,8 +1,8 @@
 本文是后端微服务架构系列的第二篇文章。在微服务架构中服务之间的通信方式常见的有两种：`RPC`  和 ` REST`，关于微服务和 `RPC`  的更多细节，可以参考我上一篇文章[]()
 
-这篇文章主要介绍什么是 `REST` 风格设计以及 `RESTfull` 接口。阅读完本文你将收获以下知识点：
+这篇文章主要介绍什么是 `REST` 风格设计以及 `RESTful` 接口。阅读完本文你将收获以下知识点：
 
-- 什么是 `REST` 和 `RESTfull` 
+- 什么是 `REST` 和 `RESTful` 
 - `REST` 接口设计规范是什么
 - `REST` 为什么要设计成无状态
 - 接口无状态真的是没有状态吗
@@ -10,7 +10,7 @@
 
 
 
-### REST和RESTfull
+### REST和RESTful
 
 `REST（Representational State Transfer，表述性状态转移）` 是一种软件架构风格。REST提出了一组架构约束条件和原则，任何满足 `REST` 约束条件和原则的架构，都称为 `RESTful` 架构。
 
@@ -31,12 +31,12 @@
 `URL` 是统一资源定位器，它是一种具体的 `URI`，即 `URL` 可以用来标识一个资源，而且还指明了如何定位这个资源，`URL` 是 `URI` 的子集。
 
 `URN`  统一资源命名，是通过名字来标识资源。`URN `也是 `URI` 的子集。
-![URI-URN-URL](https://upload-images.jianshu.io/upload_images/7842464-8a3c31c67d4d5c3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![URI-URN-URL](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LThhM2MzMWM2N2Q0ZDVjM2IucG5n?x-oss-process=image/format,png)
 
 
 在 `HTTP` 协议中用 `URL` 标识资源，也就是浏览器地址栏你看到的那一串网址。
 
-![地址栏URL](https://upload-images.jianshu.io/upload_images/7842464-a6d585a693a51811.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![地址栏URL](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LWE2ZDU4NWE2OTNhNTE4MTEucG5n?x-oss-process=image/format,png)
 
 
 #### 资源表述性
@@ -99,7 +99,7 @@ phone  :  18666666666
 
 <img src="http://wx2.sinaimg.cn/large/005LQqKVgy1felzzeyzyzj30k00k0wfi.jpg" height="200" width="200" />
 
-![](http://wx2.sinaimg.cn/large/005LQqKVgy1felzzeyzyzj30k00k0wfi.jpg)
+![](https://imgconvert.csdnimg.cn/aHR0cDovL3d4Mi5zaW5haW1nLmNuL2xhcmdlLzAwNUxRcUtWZ3kxZmVsenpleXp5emozMGswMGswd2ZpLmpwZw?x-oss-process=image/format,png)
 
 
 这样做最显然的好处是，减少了服务之间的耦合。客户端访问服务资源之前不需要知道资源在服务端的具体存储格式，只需描述资源形式即可修改、创建、更新、删除服务端的资源。
@@ -110,7 +110,7 @@ phone  :  18666666666
 
 搞懂了「资源描述性」接下来看下什么是「状态转移」？状态转移就是客户端通过一系列请求动作，推动服务端的资源状态发生变化，资源的状态可以在「创建-修改-查看-删除」之间转移。
 
-![资源状态转移](https://upload-images.jianshu.io/upload_images/7842464-b9db31aa568eac4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![资源状态转移](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LWI5ZGIzMWFhNTY4ZWFjNGIucG5n?x-oss-process=image/format,png)
 
 
 资源状态的变化在宏观上的反应就是业务流程推进。打个比方，你去银行系统开户、查余额、销户，这个过程你推动了你的银行账户这个「资源」经历了不同的状态转移让你完成了不同的业务操作。
@@ -121,7 +121,7 @@ phone  :  18666666666
 
 #### 协议选择
 
-`REST` 本身并没有提到底层应该使用什么协议，日常实践案例中最常用的是基于 `HTTP` 的 `RESTfull` 实现。
+`REST` 本身并没有提到底层应该使用什么协议，日常实践案例中最常用的是基于 `HTTP` 的 `RESTful` 实现。
 
 这是因为 `HTTP` 协议自带的动词 `GET/POST/PUT/DELETE` 可以作为推动状态转移的方法，另外`HTTP` 的制定了规范的状态码。还有其他的一些 `HTTP` 特性，这些特性使得在`HTTP` 之上实现 `REST` 要简单得多，而如果使用其他协议的话，就需要自己实现这些特性。
 
@@ -129,7 +129,7 @@ phone  :  18666666666
 
 #### 请求规范
 
-` RESTfull` 架构中，发生状态转换的是「资源」，所以`URI` 中一般只能包含代表「资源」的名词，并且推荐是复数，而不应该在 `URI` 中包对资源进行操作的动词。
+` RESTful` 架构中，发生状态转换的是「资源」，所以`URI` 中一般只能包含代表「资源」的名词，并且推荐是复数，而不应该在 `URI` 中包对资源进行操作的动词。
 
 对资源执行的`CURD「增删改查」`动作应该在`HTTP`请求方法的`GET/POST/PUT/DELETE`中体现。
 
@@ -155,7 +155,7 @@ POST http://www.test.com/Deletelemon  //删除
 
 #### 状态码
 
-服务端消息响应携带状态码，指示客户端进行下一步处理。符合 `RESTfull` 规范的接口返回状态码都是通用的，不需要额外约定，利用`HTTP Status Code 状态码` 表示请求处理结果，降低了微服务间互操作成本。
+服务端消息响应携带状态码，指示客户端进行下一步处理。符合 `RESTful` 规范的接口返回状态码都是通用的，不需要额外约定，利用`HTTP Status Code 状态码` 表示请求处理结果，降低了微服务间互操作成本。
 
 | 状态码 | 状态码含义                                     |
 | ------ | ---------------------------------------------- |
@@ -175,7 +175,7 @@ POST http://www.test.com/Deletelemon  //删除
 
 #### 无状态 
 
-`RESTfull`接口要求是「无状态」。无状态指的是任意一个Web请求必须完全与其他请求隔离，当客户端发起请求时，消息本身包含了服务端识别这一请求上下文所需的全部信息。
+`RESTful`接口要求是「无状态」。无状态指的是任意一个Web请求必须完全与其他请求隔离，当客户端发起请求时，消息本身包含了服务端识别这一请求上下文所需的全部信息。
 
 
 
@@ -190,7 +190,7 @@ POST http://www.test.com/Deletelemon  //删除
 - lemon登录之后点击取款100万，产生一个取款请求
 - 服务端收到取款请求，执行取款逻辑并返回操作结果
 
-![取款业务流程](https://upload-images.jianshu.io/upload_images/7842464-6abdaf73029fb0dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![取款业务流程](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LTZhYmRhZjczMDI5ZmIwZGQucG5n?x-oss-process=image/format,png)
 
 
 这里有个问题，服务端在不同时间点收到登录请求和取款请求，这两个请求都是用户 `lemon` 产生的，如果不在技术层面做对独立的 `HTTP` 请求做关联的话，服务端就无法知道这两个请求其实是都是用户`lemon` 「取款业务」的组成部分。
@@ -205,19 +205,19 @@ POST http://www.test.com/Deletelemon  //删除
 
    服务端维护一个会话状态信息列表，用`session-id`唯一标识一个状态信息，`session-id`一般包含在`HTTP`响应的`Set-Cookie`头部返回给客户端，后续客户端请求携带包含`session-id`信息的`cookie`头部，服务端解析`cookie`取出`session-id`，去维护的状态列表中取回该消息对应的状态信息，这样就把无状态的`HTTP`变成有状态的了。
 
-![session会话](https://upload-images.jianshu.io/upload_images/7842464-050a100672be8a6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![session会话](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LTA1MGExMDA2NzJiZThhNmIucG5n?x-oss-process=image/format,png)
 
 
 2. `Token` 方式。服务端不保存会话状态，客户端每次请求都携带完整的会话状态信息（一般是加密的）给服务端。
 
    `Token`也称作是「令牌」或临时证书签名，状态信息都被加密到`token`中，这样每当服务器收到请求后解密`token`就能获取该请求对应的状态信息，也就能把不同的请求消息关联到同一个业务流程中来，和`session`方式有类似的效果，只不过这次的状态信息不保存在服务端。
 
-![Token会话](https://upload-images.jianshu.io/upload_images/7842464-228c9b5758286053.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Token会话](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LTIyOGM5YjU3NTgyODYwNTMucG5n?x-oss-process=image/format,png)
 
 
 以上两种实现中，第一种 `Session` 方式是有状态的，第二种 `Token` 方式是无状态的。
 
-如果你要实现 `RESTfull` 接口最好按第二种技术方案实现，当然要实现无状态也还有其他方式，思路都是「服务端不保持会话状态」就对了。
+如果你要实现 `RESTful` 接口最好按第二种技术方案实现，当然要实现无状态也还有其他方式，思路都是「服务端不保持会话状态」就对了。
 
 
 
@@ -225,12 +225,12 @@ POST http://www.test.com/Deletelemon  //删除
 
 为了高可用性和负载均衡需求，多个微服务通过负载均衡实现分布式集群化部署，集群中每个服务都是独立和对等的。如果服务器在收到客户端请求之时不可用或者宕机，无状态请求可以由任何其他可用服务器处理并作出应答，这在分布式应用中非常重要。
 
-![REST无状态接口](https://upload-images.jianshu.io/upload_images/7842464-107394c52657bc98.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![REST无状态接口](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LTEwNzM5NGM1MjY1N2JjOTgucG5n?x-oss-process=image/format,png)
 
 
 想象一下如果服务端保存状态，一个事务内的每个请求都必须落到同一台服务器去处理，这就失去了分布式的意义和优势。
 
-所以， `RESTfull` 接口要求是无状态的，是为了更好的适应分布式业务场景，发挥微服务集群优势。
+所以， `RESTful` 接口要求是无状态的，是为了更好的适应分布式业务场景，发挥微服务集群优势。
 
 
 
@@ -246,7 +246,7 @@ POST http://www.test.com/Deletelemon  //删除
 
 很多 `RPC` 框架提供的消息传输都是基于二进制的，比如`Thrift`、`Protocol buffers`。这样做的好处是消息结构比较紧凑，对于频繁调用或者大流量、低时延要求的应用场景，能够显著减少网络开销；另一个约束是某些 `RPC` 框架有很强的技术耦合性，比如 `Dubbo` 只能用于 `java` 技术栈。综上，`RPC ` **更加适用于系统内部微服务之间的高效通信。**
 
-`RESTfull`接口由于提供了统一的基于 `HTTP `的 `REST` 设计标准，只需 `web` 框架支持 `HTTP` 协议，并设计`RESTfull` 风格的接口即可，极大的方便了第三方服务接入调用，**适合用于微服务系统对外暴露的接口设计标准。**
+`RESTful`接口由于提供了统一的基于 `HTTP `的 `REST` 设计标准，只需 `web` 框架支持 `HTTP` 协议，并设计`RESTful` 风格的接口即可，极大的方便了第三方服务接入调用，**适合用于微服务系统对外暴露的接口设计标准。**
 
 
 

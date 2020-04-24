@@ -205,14 +205,6 @@ Linux内核--内核地址空间分布和进程地址空间 https://my.oschina.ne
 
 Linux内存管理 http://gityuan.com/2015/10/30/kernel-memory/ 
 
-linux内核slab机制分析 https://www.jianshu.com/p/95d68389fbd1 
-
-Linux slab 分配器剖析 https://www.ibm.com/developerworks/cn/linux/l-linux-slab-allocator/index.html#table2 
-
-Linux内核内存管理算法Buddy和Slab https://zhuanlan.zhihu.com/p/36140017 
-
-Linux内存之Slab https://fivezh.github.io/2017/06/25/Linux-slab-info/ 
-
 Linux Used内存到底哪里去了？ http://blog.yufeng.info/archives/2456 
 
 
