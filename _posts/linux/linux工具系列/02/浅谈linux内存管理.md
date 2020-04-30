@@ -124,7 +124,7 @@
 ![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LTc0N2U1ZmYxNzQ1NDhlNjAucG5n?x-oss-process=image/format,png)
 
 
-所以，内核空间拿出了最后的 128M 地址区间，划分成下面三个高端内存映射区，以达到对整个物理地址范围的寻址。而在 64 位的系统上就不存在这样的问题了，因为可用的线性地址空间远大于可安装的内存。
+所以，内核空间拿出了最后的 128M 地址区间，划分成下面三个高端内存映射区，以达到对整个物理地址范围的寻址。而 在 64 位的系统上就不存在这样的问题了，因为可用的线性地址空间远大于可安装的内存。
 
 ##### 动态内存映射区
 
@@ -191,7 +191,7 @@
 
 **原创不易，看到这里，如果在我这有一点点收获，就动动手指「转发」和「在看」是对我持续创作的最大支持。**
 
-
+ 
 
 ## Reference
 
