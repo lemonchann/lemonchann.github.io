@@ -1,7 +1,5 @@
 今天来带大家研究一下` Linux `内存管理。对于精通 `CURD` 的业务同学，内存管理好像离我们很远，但这个知识点虽然冷门（估计很多人学完根本就没机会用上）但绝对是基础中的基础，这就像武侠中的内功修炼，学完之后看不到立竿见影的效果，但对你日后的开发工作是大有裨益的，因为你站的更高了。
 
-**文中所有示例图都是我亲手画的，画图比码字还费时间，但是看图理解比文字更直观，需要高清示例图片的同学，文末有获取方式自取。** 
-
 再功利点的说，面试的时候不经意间透露你懂这方面知识，并且能说出个一二三来，也许能让面试官对你更有兴趣，离升职加薪，走上人生巅峰又近了一步。
 
   ![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy83ODQyNDY0LTIzMmZkNThiMGUwYzg4ZDE?x-oss-process=image/format,png) 
@@ -189,7 +187,9 @@
 
 老规矩，感谢各位的阅读，文章的目的是分享对知识的理解，技术类文章我都会反复求证以求最大程度保证准确性，若文中出现明显纰漏也欢迎指出，我们一起在探讨中学习。今天的技术分享就到这里，我们下期再见。
 
-**原创不易，看到这里，如果在我这有一点点收获，就动动手指「转发」和「在看」是对我持续创作的最大支持。**
+**我是 lemon 一线互联网大厂程序员，热爱技术，乐于分享。欢迎扫码关注公众号「后端技术学堂」带你一起学编程，回复「资源」送你 3GB 的编程学习大礼包，包括Linux、数据库、C++、Python、数据结构与算法、设计模式、程序员面试指南等资源，欢迎关注，交流学习。**
+
+![扫码关注.png](https://upload-images.jianshu.io/upload_images/7842464-146a203080f94c9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
  
 
@@ -206,5 +206,4 @@ Linux内核--内核地址空间分布和进程地址空间 https://my.oschina.ne
 Linux内存管理 http://gityuan.com/2015/10/30/kernel-memory/ 
 
 Linux Used内存到底哪里去了？ http://blog.yufeng.info/archives/2456 
-
 
