@@ -7,15 +7,21 @@ comments: true
 author: lemonchann
 ---
 
-作为一个程序员怎么能没有自己的个人博客呢，这里详细记录和分享我的博客搭建经验，让你轻轻松松拥有自己的博客网站。	傻瓜式一站式教你用github pages 来搭建博客，详细记录全过程。
+作为一个程序员怎么能没有自己的个人博客呢，这里详细记录和分享我的博客搭建经验，让你轻轻松松拥有自己的博客网站。傻瓜式一站式教你用 github pages 来搭建博客，详细记录全过程，保证你能学会。
+
+如果你是非程序员或者不关系技术细节，只需花 3 分钟阅读前面 5 个章节内容，就能轻松拥有自己的博客。
 
 <!-- more -->
 
 ## 开始
 
-先看下博客整体效果。[**点击在线预览我的博客**]( https://lemonchann.github.io/ )
+话不多说，直接上图先来看下我的博客整体效果。[**点击在线预览我的博客**]( https://lemonchann.github.io/blog/)，个人比较喜欢这种简约的博客风格，不要花里胡哨但该有的功也都有。
 
 ![blogPage](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/blogPage.png)
+
+
+
+下面列举这个博客具有的功能特性，其中我比较看重归档和搜索能力。
 
 ### 支持特性
 
@@ -39,25 +45,31 @@ author: lemonchann
 
 - 支持归档与标签
 
+- 支持改变主题颜色
+
+- 支持添加文章目录
+
   
 
 ## 建立博客Git仓库
 
 首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。你可以直接fork我的博客仓库。这样你马上有了自己的博客仓库。
 
-[点这里我的博客地址](https://github.com/lemonchann/lemonchann.github.io)进去fork，之后在你自己的仓库下会看到刚复制的仓库。以后的操作都在你自己的仓库进行。
+[点这里我的博客地址](https://github.com/lemonchann/lemonchann.github.io)进去点击 fork，之后在你自己的仓库下会看到刚复制的仓库，以后的操作都在你自己的仓库进行，当然想感谢我写这个教程就帮我点个 start 吧！
 
 ![fork博客](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/fork%E5%8D%9A%E5%AE%A2.png)
 
-**版权声明： fork之后_posts文件夹内容是我的博客文章，版权归我所有。你可以选择删除里面的文章替换上自己的或者转载附上链接注明出处。 **
+**版权声明： fork之后_posts文件夹内容是我的博客文章，版权归我所有。你可以选择删除里面的文章替换上自己的博客文章，如需转载需要与我联系授权 **。
+
+
 
 ## 修改博客仓库名称
 
-进到你自己的博客仓库，修改博客仓库名称成你自己的用户名。github page解析的时候找的是这个 username.github.io的仓库名。
+进到你自己的博客仓库，**修改博客仓库名称成你自己的用户名**。因为 github page 解析的时候找的是这个 username.github.io的仓库名，**这一步非常重要**。
 
 ![修改仓库名称](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E4%BF%AE%E6%94%B9%E4%BB%93%E5%BA%93%E5%90%8D%E7%A7%B0.png)
 
-此时，不出意外的话，打开域名https://username.github.io 就能看到你刚搭建的博客了。*注意替换username成你自己的github用户名*。
+此时，不出意外的话，打开域名 https://username.github.io 就能看到你刚搭建的博客了。*注意替换 username成你自己的github 用户名*。
 
 ## 博客配置
 
@@ -134,6 +146,8 @@ url: https://yourname.github.io
 
 **done! 现在输入上面提到的博客地址，回车，你拥有了自己的博客。**
 
+
+
 ## 如何写博客
 
 好了，博客有了。如何更新文章呢？
@@ -142,7 +156,13 @@ url: https://yourname.github.io
 
 关于文章的**命名格式**：博客文章必须按照统一的命名格式 `yyyy-mm-dd-blogName.md` 比如我这篇博客的名字是`2019-11-22-create_blog_with_github_pages.md`
 
-**看到这里，如果只是简单的想写博客，后面的不看也可以了，后面章节是记录一些DIY的过程。**
+**看到这里，如果只是简单的想写博客，后面的不看也可以了，你已经拥有了自己的博客！后面章节是记录一些DIY的过程。**
+
+另外，发现最近用我这个模板的同学越来越多，如果搭建过程中有什么问题，可以在我的公众号「后端技术学堂」讨论交流。
+
+![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 
 ## 本地博客预览
 
@@ -359,6 +379,8 @@ PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图�
 
 [好用的github插件](https://blog.csdn.net/u012702547/article/details/100533763)
 
+
+
 ## 网站结构
 
 根目录的index.html生成blog首页
@@ -367,8 +389,14 @@ _include/footer.html生成侧边栏
 
 _include/svg-icons.html生成社交头像的链接
 
+
+
 ## 致谢
 
-感谢Jekyll提供的技术支持才能有这个博客。
+感谢 [Jekyll](https://www.jekyll.com.cn/) 提供的技术支持才能有这个博客。
 
-感谢[LOFFER](https://fromendworld.github.io/LOFFER/document/)提供的原始模板，我在其上进行的二次开发。
+感谢 [LOFFER ](https://fromendworld.github.io/LOFFER/document/)提供的原始模板，我在其上进行的二次开发。
+
+**我的个人技术公众号「后端技术学堂」分享、记录、成长，扫码添加，一起学习，共同成长。**
+
+![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
