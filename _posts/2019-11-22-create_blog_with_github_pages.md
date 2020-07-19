@@ -363,6 +363,20 @@ footer-links:
 
 eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;width:200px;background-color:gray;`
 
+## 修改博客主题颜色
+
+博客使用开源的颜色表[Open Color](https://yeun.github.io/open-color/)，博客主题的可选颜色有：
+
+`red, pink, grape, violet, indigo, blue, cyan, teal, green, lime, yellow`
+
+修改文件`_sass/_variables.scss`，将文件中当前颜色，比如当前是 `grape` 全部替换成你想要的颜色即可。
+
+## 显示文章目录
+
+在文章开头信息中心增加 `toc: true` 描述即可打开文章目录显示。效果如下：
+
+![文章带目录](https://i.loli.net/2020/07/12/TFlRj3kBdpocY9K.png)
+
 
 
 ## 如何传图片
