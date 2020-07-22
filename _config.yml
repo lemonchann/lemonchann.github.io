@@ -3,16 +3,16 @@
 #
 
 # Name of your site (displayed in the header)
-name: "lemonchann's blog"
+name: "lemon's blog"
 # Short bio or description (displayed in the header)
-description: "learning and practicing make skillfull"
+description: "个人技术公众号「后端技术学堂」分享、记录、成长"
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/blog.jpg
+avatar: https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/favicon.ico
@@ -21,13 +21,13 @@ favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/fa
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Blog
+  - name: 首页
     url: /
-  - name: About
+  - name: 关于
     url: /about
-  - name: Archive
+  - name: 归档
     url: /archive
-  - name: Tags
+  - name: 标签
     url: /tags
 
 # Pagination
@@ -40,7 +40,7 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: ll-chen-2
+  zhihu: ning-meng-cheng-31-94
   email: lemonchann@foxmail.com
   facebook:
   flickr:
@@ -56,7 +56,7 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2019 lemonchann
+footer-text: Copyright (c) 2019 lemon
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -70,7 +70,7 @@ gitalk:
   owner: lemonchann
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-152888548-1
+#google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
