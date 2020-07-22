@@ -1,4 +1,4 @@
-这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客，可以参考[这篇文章](https://github.com/lemonchann/lemonchann.github.io/blob/master/_posts/2019-11-22-create_blog_with_github_pages.md)详细指导搭建步骤。
+这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客，可以参考我博客的[这篇文章]( https://lemonchann.github.io/create_blog_with_github_pages/ )详细指导搭建步骤。
 
 ### 文章版权
 
