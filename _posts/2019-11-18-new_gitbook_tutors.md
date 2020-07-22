@@ -13,7 +13,7 @@ author: lemonchann
 <!-- more -->
 
 ## 安装Gitbook
-* 安装nodejs可以去[官网](http://nodejs.cn/download/)下载对应版本  
+* 安装nodejs可以去[官网](http://nodejs.cn/download/)下载对应版本 ，  Gitbook 只支持 node 6.x.x版本 。参考： https://www.jianshu.com/p/57b46db0564e 
 *  安装gitbook，打开win cmd输入npm install gitbook-cli -g   
 > 常用命令：  
 > **gitbook -V 查看版本**    
