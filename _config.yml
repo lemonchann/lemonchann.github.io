@@ -12,7 +12,7 @@ description: "个人技术公众号「后端技术学堂」分享、记录、成
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/公众号.png
+avatar: https://github.com/lemonchann/images/raw/master/gzh/公众号二维码.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/favicon.ico
 
