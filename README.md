@@ -10,5 +10,5 @@
 
 如果搭建过程中有什么问题，也可以在我的个人技术公众号「后端技术学堂」讨论交流，扫码添加。
 
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
 
