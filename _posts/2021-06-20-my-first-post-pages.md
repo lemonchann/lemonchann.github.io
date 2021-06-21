@@ -1,9 +1,9 @@
 -
 layout: post
-title: "可能是最全面的github pages搭建个人博客教程"
-date:   2019-11-22
+title: "我的第一个github pages发布"
+date:   2021-06-20
 tags: [geek]
 comments: true
-author: lemonchann
+author: Tony
 ---
 我的第一个发布。
