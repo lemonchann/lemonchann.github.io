@@ -59,7 +59,7 @@ footer-text: Copyright (c) 2021 Tony
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: # fromendworld
+#disqus: # fromendworld
 
 # Gitalk
 gitalk:
