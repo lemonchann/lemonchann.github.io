@@ -63,8 +63,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: bd65d5c0df878155b7fa
-  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+  clientID: 8d4e4d0b7e597be7956b
+  clientSecret: e4569662cc9286a7c5e428008090c29c07e6007e
   repo: yorktony.github.io
   owner: yorktony
 
