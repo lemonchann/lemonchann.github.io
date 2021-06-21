@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi，我是 lemon.
+Hi，我是 Tony.
 
 ### 技能
 
@@ -15,7 +15,7 @@ Hi，我是 lemon.
 
 分享、记录、成长。
 
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 
 
