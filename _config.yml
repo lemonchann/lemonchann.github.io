@@ -3,9 +3,9 @@
 #
 
 # Name of your site (displayed in the header)
-name: "lemon's blog"
+name: "Tony 的博客"
 # Short bio or description (displayed in the header)
-description: "个人技术公众号「后端技术学堂」分享、记录、成长"
+description: "分享、记录、成长"
 
 #
 # Flags below are optional
@@ -37,13 +37,13 @@ excerpt_separator: <!-- more -->
 # Includes an icon in the footer for each username you enter
 footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
-  behance: # https://www.behance.net/<username>
-  dribbble:
-  zhihu: ning-meng-cheng-31-94
-  email: lemonchann@foxmail.com
+  #behance: # https://www.behance.net/<username>
+  #dribbble:
+  #zhihu: ning-meng-cheng-31-94
+  email: yorktony2011@gmail.com
   facebook:
   flickr:
-  github: lemonchann 
+  github: yorktony
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -55,7 +55,7 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2019 lemon
+footer-text: Copyright (c) 2021 Tony
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -65,15 +65,15 @@ disqus: # fromendworld
 gitalk:
   clientID: bd65d5c0df878155b7fa
   clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: lemonchann.github.io
-  owner: lemonchann
+  repo: yorktony.github.io
+  owner: yorktony
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://lemonchann.github.io
+url: https://yorktony.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
