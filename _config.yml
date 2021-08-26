@@ -3,9 +3,9 @@
 #
 
 # Name of your site (displayed in the header)
-name: "lemon's blog"
+name: "秦歌的自留地"
 # Short bio or description (displayed in the header)
-description: "个人技术公众号「后端技术学堂」分享、记录、成长"
+description: "记录所见、所闻、所思、所感"
 
 #
 # Flags below are optional
@@ -40,10 +40,10 @@ footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
   zhihu: ning-meng-cheng-31-94
-  email: lemonchann@foxmail.com
+  email: jandyxu@gmail.com
   facebook:
   flickr:
-  github: lemonchann 
+  github: jandyxu 
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -55,7 +55,7 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2019 lemon
+footer-text: Copyright (c) 2021 jandyxu
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -65,15 +65,15 @@ disqus: # fromendworld
 gitalk:
   clientID: bd65d5c0df878155b7fa
   clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: lemonchann.github.io
-  owner: lemonchann
+  repo: jandyxu.github.io
+  owner: jandyxu
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://lemonchann.github.io
+url: https://jandyxu.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
