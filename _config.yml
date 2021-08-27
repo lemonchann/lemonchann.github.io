@@ -1,7 +1,17 @@
 #
 # This file contains configuration flags to customize your site
 #
+<div class="wrapper-sidebar">
+  <header class="sidebar clearfix">
+    <div class="site-info">
+      
+        <a href="/LOFFER/" class="site-avatar"><img src="https://jandyxu.github.io/images/blog.png" /></a>
+       
+    </div>
+  </header>
 
+  <div class="navlist">
+    <nav>
 # Name of your site (displayed in the header)
 name: "自留地"
 # Short bio or description (displayed in the header)
