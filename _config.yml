@@ -2,13 +2,7 @@
 # This file contains configuration flags to customize your site
 #
 <div class="wrapper-sidebar">
-  <header class="sidebar clearfix">
-    <div class="site-info">
-      
-        <a href="/LOFFER/" class="site-avatar"><img src="https://jandyxu.github.io/images/blog.png" /></a>
-       
-    </div>
-  </header>
+  
 
   <div class="navlist">
     <nav>
