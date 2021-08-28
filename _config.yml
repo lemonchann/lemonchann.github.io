@@ -40,7 +40,7 @@ footer-links:
   behance: # https://www.behance.net/<username>
   dribbble: 
   email: jandyxu@gmail.com
-  facebook : https://www.facebook.com/jandyxuxu
+  facebook : jandyxuxu
   flickr:
   github: https://github.com/jandyxu 
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -50,7 +50,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter :  https://twitter.com/jandyxu
+  twitter :  jandyxu
   youtube:
 
 # Text under the icons in footer
