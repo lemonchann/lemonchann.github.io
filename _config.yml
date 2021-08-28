@@ -5,7 +5,7 @@
 # Name of your site (displayed in the header)
 name: "秦歌"
 # Short bio or description (displayed in the header)
-description: "想入非非的园地，记录所见、所闻、所思、所感"
+description: "想入非非的园地！"
 
 #
 # Flags below are optional
@@ -39,8 +39,8 @@ footer-links:
   #Twitter: frommidworld #请输入你的微博个性域名 https://twitter.com/jandyxu/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: ning-meng-cheng-31-94
-  email: jandyxu@gmail.com
+  zhihu: 
+  email: 
   facebook:https://www.facebook.com/jandyxuxu
   flickr:
   github: https://github.com/jandyxu 
