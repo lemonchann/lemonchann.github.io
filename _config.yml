@@ -36,12 +36,11 @@ excerpt_separator: <!-- more -->
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  #Twitter: frommidworld #请输入你的微博个性域名 https://twitter.com/jandyxu/<thispart>
+  #Twitter :  frommidworld #请输入你的微博个性域名 https://twitter.com/jandyxu/<thispart>
   behance: # https://www.behance.net/<username>
-  dribbble:
-  zhihu: 
-  email: 
-  facebook:https://www.facebook.com/jandyxuxu
+  dribbble: 
+  email: jandyxu@gmail.com
+  facebook : https://www.facebook.com/jandyxuxu
   flickr:
   github: https://github.com/jandyxu 
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -51,7 +50,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  #twitter: frommidworld
+  twitter :  https://twitter.com/jandyxu
   youtube:
 
 # Text under the icons in footer
