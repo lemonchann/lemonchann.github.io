@@ -36,14 +36,14 @@ excerpt_separator: <!-- more -->
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+  #Twitter: frommidworld #请输入你的微博个性域名 https://twitter.com/jandyxu/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
   zhihu: ning-meng-cheng-31-94
   email: jandyxu@gmail.com
-  facebook:
+  facebook:https://www.facebook.com/jandyxuxu
   flickr:
-  github: jandyxu 
+  github: https://github.com/jandyxu 
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
