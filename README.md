@@ -6,7 +6,7 @@
 
 ### 致谢
 
-感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板，感谢lemon。
+感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板，感谢lemon制作了此模板，稍作修改后，制作了自己的个人博客，有兴趣的朋友亦可以自己fork后，进行制作修改。
 
 
 
