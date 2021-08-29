@@ -64,7 +64,7 @@ disqus: # fromendworld
 gitalk:
   clientID: 787a3f56e33df26f0bd2
   clientSecret: 0b118da40e8e4e3f0dc6fbf1c9c703bf4002f7e9
-  repo: jandyxu.github.io
+  repo: jandyxu
   owner: jandyxu
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
