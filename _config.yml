@@ -22,7 +22,7 @@ favicon: https://github.com/jandyxu/jandyxu.github.io/raw/master/images/favicon.
 navigation:
   - name: 首页
     url: /
-  - name: 关于
+  - name: 联系
     url: /about
   - name: 归档
     url: /archive
