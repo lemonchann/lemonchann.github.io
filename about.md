@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 博客由来
-permalink: /博客由来/ 
+permalink: /about/ 
 ---
 
 您好，承蒙来访，多谢！开此博客乃追求书写自由，只是，只是，仍难免苟且！亦希望与大家多多交流！
