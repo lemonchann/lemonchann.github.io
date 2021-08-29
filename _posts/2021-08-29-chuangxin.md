@@ -1,15 +1,3 @@
-```
-layout: post
-title: jandyxu文档
-date: 2021-08-29
-Author: 秦歌
-categories: 
-tags: [sample, document]
-comments: true
-```
-
-
-
 # **创新者没有窘境**
 
  
@@ -34,7 +22,7 @@ comments: true
 
  
 
-![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![img](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/chuangxin/nokia.jpg)
 
  
 
