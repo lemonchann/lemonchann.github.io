@@ -62,8 +62,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: d17d2782457bea1732b9
-  clientSecret: 77f6a55703f472c111f71499cf244948bcf4f100
+  clientID: 787a3f56e33df26f0bd2
+  clientSecret: 0b118da40e8e4e3f0dc6fbf1c9c703bf4002f7e9
   repo: jandyxu.github.io
   owner: jandyxu
 
