@@ -14,7 +14,7 @@ description: "想入非非！"
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/520.jpg
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://github.com/jandyxu/jandyxu.github.io/raw/master/images/favicon.ico
+favicon: https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/favicon.ico.png
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -66,7 +66,7 @@ gitalk:
   clientSecret: 0b118da40e8e4e3f0dc6fbf1c9c703bf4002f7e9
   repo: jandyxu.github.io
   owner: jandyxu
-  proxy: <https://jandyxu.github.io/>
+  proxy: <https://jandyxu.github.io>
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
@@ -76,8 +76,8 @@ gitalk:
 url: https://jandyxu.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
+# (http://jandyxu.github.io/repository-name)
+# and NOT your User repository (http://jandyxu.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 # baseurl: 
 
