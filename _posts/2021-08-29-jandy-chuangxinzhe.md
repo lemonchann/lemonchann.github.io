@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "创新者没有窘境"
-date:   2021-08-29
+date:   2021-09-04
 tags: [书评]
 comments: true
 author: 秦歌
