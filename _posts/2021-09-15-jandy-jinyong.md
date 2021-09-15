@@ -16,9 +16,9 @@ author: 秦歌
 
 我们都中了”术”的毒，成了方法论的奴隶，说话的背后是人情世故，这正是中华文化的强项，老祖宗的书，多数讲的就是这一套，御人之术。还是孔夫子说得好，己所不欲，勿施于人。
 
-![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/jyong/%E9%9B%B7%E5%86%9B.jpg)
-
 语言是人类的发明，人类的很多缺陷在语言上亦得体现，不精确、理性难得、客观是奢望，情绪化。此外，人类的情感，世间的万物，岂是语言能穷尽？
+
+![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/jyong/%E9%9B%B7%E5%86%9B.jpg)
 
 凡是能用语言表述的任何观点，都可被驳弃，谎言重复千遍就成真理，不是说谎言是真理，重复是整个过程的催化剂，人是情境化的动物，可塑性强，要不然也不会有斯德哥尔摩综合症。
 
