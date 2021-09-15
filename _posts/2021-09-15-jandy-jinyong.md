@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "电视节目、金庸走了及《左耳》影评"
+title: "奇葩说、金庸走了及《左耳》影评"
 date:   2021-09-15
 tags: [影评]
 comments: true
@@ -8,7 +8,7 @@ author: 秦歌
 
 ---
 
-## 电视节目
+## 奇葩说
 
 
 
