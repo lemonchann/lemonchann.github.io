@@ -18,7 +18,7 @@ author: 秦歌
 
 中年的发福似情有可原，生命步入下半场，周遭一切皆趋稳定，新陈代谢也跟着慢下来，吃进去的食物除了维持日常所需外尚有冗余，脂肪成了这些冗余的归宿。
 
-![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/fafu/1.jpg)
+![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/fafu/3.jpg)
 
 发福非你所愿，便是身体失控。减肥的观点连篇累牍，对错难说也无法考究，重要的是要明白纳粹营的犯人们个个枯瘦如柴，鲜见超重之人，减肥终究是个意志问题。
 
