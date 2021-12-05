@@ -10,7 +10,7 @@ permalink: /about/
 
 ### 联系方式
 
-**Twitter**：[https://twitter.com/jandyxu](https://twitter.com/jandyxu)  
+**Twitter**：[https://twitter.com/fkanyone](https://twitter.com/fkanyone)  
 
 **Facebook**：[https://www.facebook.com/jandyxuxu](https://www.facebook.com/jandyxuxu) 
 
