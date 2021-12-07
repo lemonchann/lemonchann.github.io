@@ -4,11 +4,11 @@ title: about
 permalink: /about/ 
 ---
 
-### 博客由来
+### 博客由來
 
-承蒙来访，多谢！博客为追求汉字的书写自由而建，只是苟且仍难免，亦希望与大家有多交流！
+承蒙閣下來訪，博客為追求漢字的書寫自由而建，只是苟且仍難免，亦希望與大家有多交流！
 
-### 联系方式
+### 聯繫方式
 
 **Twitter**：[https://twitter.com/fkanyone](https://twitter.com/fkanyone)  
 
@@ -16,11 +16,11 @@ permalink: /about/
 
 **Telegram**：[https://t.me/jandyxu](https://t.me/jandyxu) 
 
-**WeChat**：jandyxuxu![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/%E5%BE%AE%E4%BF%A1%E5%8F%B7.jpg)                      **微信公众号**：xu258072970![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg )
+**WeChat**：jandyxuxu![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/%E5%BE%AE%E4%BF%A1%E5%8F%B7.jpg)                      **微信公眾號**：xu258072970![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg )
 
-### 版权声明
+### 版權聲明
 
-博客文章皆为原创文章，版权归我所有，转载请与我联系获得授权许可。
+博客文章皆為原創文章，版權歸我所有，轉載請與我聯繫獲得授權許可。
 
 
 
