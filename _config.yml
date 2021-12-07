@@ -20,13 +20,13 @@ favicon: https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/imag
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 首页
+  - name: 首頁
     url: /
-  - name: 联系
+  - name: 聯繫
     url: /about
-  - name: 归档
+  - name: 歸檔
     url: /archive
-  - name: 标签
+  - name: 標籤
     url: /tags
 
 # Pagination
