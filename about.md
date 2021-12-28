@@ -1,26 +1,28 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: about
+permalink: /about/ 
 ---
 
-Hi，我是 lemon.
+### 博客由來
 
-### 技能
+承蒙閣下來訪，博客為追求漢字的書寫自由而建，只是苟且仍難免，亦希望與大家有多交流！
 
-Linux后端分布式高性能服务开发，差一点精通 C++，Golang 成长中，Python小玩具。
+### 聯繫方式
 
-### 经历
+**Twitter**：[https://twitter.com/fkanyone](https://twitter.com/fkanyone)  
 
-软件工程师(Software Engineer)，电子信息工程学士学位( Electronic and Information Engineering )，从事服务器软件后台开发工作多年，现就职腾讯（Tencent）公司。
+**Facebook**：[https://www.facebook.com/jandyxuxu](https://www.facebook.com/jandyxuxu) 
 
-个人技术公众号「后端技术学堂」分享、记录、成长，欢迎扫码添加。
+**Telegram**：[https://t.me/jandyxu](https://t.me/jandyxu) 
 
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+**WeChat**：jandyxuxu![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/%E5%BE%AE%E4%BF%A1%E5%8F%B7.jpg)                      **微信公眾號**：xu258072970![](https://raw.githubusercontent.com/jandyxu/jandyxu.github.io/master/images/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg )
+
+### 版權聲明
+
+博客文章皆為原創文章，版權歸我所有，轉載請與我聯繫獲得授權許可。
 
 
 
-### 版权声明
 
-博客文章是我原创文章，存档于_posts 文件夹下，版权归我所有，转载请与我联系获得授权许可。
 

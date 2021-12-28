@@ -1,4 +1,4 @@
-这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客，可以参考我博客的[这篇文章]( https://lemonchann.github.io/create_blog_with_github_pages/ )详细指导搭建步骤。
+这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客。
 
 ### 文章版权
 
@@ -6,9 +6,8 @@
 
 ### 致谢
 
-感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板，我在其上进行的二次开发。
+感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板，感谢lemon制作了此模板，稍作修改后，制作了自己的个人博客，有兴趣的朋友亦可以自己fork后，进行修改，制作自己风格的博客。
 
-如果搭建过程中有什么问题，也可以在我的个人技术公众号「后端技术学堂」讨论交流，扫码添加。
 
-![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
+
 
