@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "恶童三部曲"
+title: "<恶童三部曲>:酷毙的荒诞"
 date:   2022-3-21
 tags: [书评]
 comments: true
