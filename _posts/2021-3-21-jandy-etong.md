@@ -32,5 +32,5 @@ author: 秦歌
 
 如果要给这本小说分类，它的第一部《恶童日记》应该与史蒂芬 金的小说一样，归为惊悚恐怖类，无疑。
 
-![](https://github.com/jandyxu/jandyxu.github.io/blob/master/images/etong/et1ong.jpg)
+![](https://github.com/jandyxu/jandyxu.github.io/blob/master/images/etong/et1ong.jpg?raw=true)
 
