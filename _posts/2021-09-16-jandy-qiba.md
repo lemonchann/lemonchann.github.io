@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "奇葩说：不可靠的语言"
-date:   2021-09-15
+date:   2021-09-18
 tags: [影评]
 comments: true
 author: 秦歌
