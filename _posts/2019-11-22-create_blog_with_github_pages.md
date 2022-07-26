@@ -250,7 +250,7 @@ url: https://yourname.github.io
 
 ### 配置搜索框标签
 
-在你想展示搜索框的页面我的是index.html，这个页面和每个人的博客模板有关，可能需要一点前端知识，添加如下的html标签。
+在你想展示搜索框的页面我的是index.html，这个页面和每个人的博客模板有关，可能需要一点前端知识，添加如下的[html标签](https://www.scaler.com/topics/html/html-tags/)。
 
 ```html
 <div class="search-container">
