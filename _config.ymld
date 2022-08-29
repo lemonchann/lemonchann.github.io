@@ -66,7 +66,7 @@ gitalk:
   clientID:1f44d841516bb1cf11a4
   clientSecret:74dc50294c7f953a17f1c244d35db06e222dd094
   repo: chendong0.github.io
-  owner: chendong
+  owner: chendong0
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
