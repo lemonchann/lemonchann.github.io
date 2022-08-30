@@ -33,7 +33,7 @@ footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
   zhihu: 陈东
-  email: #315653414@qq.com
+  email: 315653414@qq.com
   facebook:
   flickr:
   github:chendong0
@@ -48,7 +48,7 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2019 lemon
+
 footer-text: Copyright (c) 2019 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -57,7 +57,6 @@ footer-text: Copyright (c) 2019
 gitalk:
   clientID:1f44d841516bb1cf11a4
   clientSecret:74dc50294c7f953a17f1c244d35db06e222dd094
-  repo: chendong.github.io
   repo: chendong0.github.io
   owner: chendong
 
