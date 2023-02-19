@@ -7,8 +7,9 @@ comments: true
 author: md606
 ---
 
-## nginx反向代理详细教程（Centos-yum版）
+nginx代理可以做很多事情，比如将8090端口的halo博客反代到80端口，将80端口的http请求反代到8080的https……可以说，nginx反向代理是前端码农必须掌握的技能
 
+<!-- more -->
 ### 1、安装nginx
 
 ```bash
