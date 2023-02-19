@@ -1,3 +1,12 @@
+---
+layout: post
+title: "nginx反向代理详细教程（Centos-yum版）"
+date:   2023-02-18
+tags: [前端]
+comments: true
+author: md606
+---
+
 ## nginx反向代理详细教程（Centos-yum版）
 
 ### 1、安装nginx
