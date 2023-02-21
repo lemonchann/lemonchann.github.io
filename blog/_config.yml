@@ -20,14 +20,14 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fav
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 首页
-    url: /
-  - name: 关于
-    url: /about
-  - name: 归档
-    url: /archive
-  - name: 标签
-    url: /tags
+    - name: 首页
+      url: /
+    - name: 关于
+      url: /about
+    - name: 归档
+      url: /archive
+    - name: 标签
+      url: /tags
 
 # Pagination
 paginate: 8
@@ -36,23 +36,23 @@ excerpt_separator: <!-- more -->
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
-  behance: # https://www.behance.net/<username>
-  dribbble:
-  zhihu: 
-  email: jimmy6905@163.com
-  facebook:
-  flickr:
-  github: md606 
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  tumblr: # https://<username>.tumblr.com
-  #twitter: frommidworld
-  youtube:
+    #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+    behance: # https://www.behance.net/<username>
+    dribbble:
+    zhihu:
+    email: jimmy6905@163.com
+    facebook:
+    flickr:
+    github: md606
+    googleplus: # anything in your profile username that comes after plus.google.com/
+    instagram:
+    linkedin:
+    pinterest:
+    rss: # just type anything here for a working RSS icon
+    stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+    tumblr: # https://<username>.tumblr.com
+    #twitter: frommidworld
+    youtube:
 
 # Text under the icons in footer
 footer-text: Copyright (c) 2023 md606
@@ -63,23 +63,23 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 065ea91a1dac64fcdeed
-  clientSecret: 8100a4cedb8ca0cf215babe748c55c036eb8cf85
-  repo: md606.github.io
-  owner: md606
+    clientID: 065ea91a1dac64fcdeed
+    clientSecret: 8100a4cedb8ca0cf215babe748c55c036eb8cf85
+    repo: md606.github.io
+    owner: md606
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-#google_analytics: 
+#google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://md606.github.io
+url: https://md606.github.io/blog/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-# baseurl: 
+# baseurl:
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -93,29 +93,28 @@ version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+    # Use GitHub flavored markdown, including triple backtick fenced code blocks
+    input: GFM
+    # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        # Use existing pygments syntax highlighting css
+        css_class: "highlight"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+    style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-paginate
+    - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+    - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+    - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
