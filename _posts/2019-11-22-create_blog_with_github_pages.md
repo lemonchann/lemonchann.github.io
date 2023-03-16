@@ -15,13 +15,6 @@ author: lemonchann
 
 ## 开始
 
-话不多说，直接上图先来看下我的博客整体效果。[**点击在线预览我的博客**]( https://lemonchann.github.io/blog/)，个人比较喜欢这种简约的博客风格，不要花里胡哨但该有的功也都有。
-
-![blogPage](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/blogPage.png)
-
-
-
-下面列举这个博客具有的功能特性，其中我比较看重归档和搜索能力。
 
 ### 支持特性
 
@@ -156,11 +149,6 @@ url: https://yourname.github.io
 
 关于文章的**命名格式**：博客文章必须按照统一的命名格式 `yyyy-mm-dd-blogName.md` 比如我这篇博客的名字是`2019-11-22-create_blog_with_github_pages.md`
 
-**看到这里，如果只是简单的想写博客，后面的不看也可以了，你已经拥有了自己的博客！后面章节是记录一些DIY的过程。**
-
-另外，发现最近用我这个模板的同学越来越多，如果搭建过程中有什么问题，可以在我的公众号「后端技术学堂」讨论交流。
-
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -407,10 +395,7 @@ _include/svg-icons.html生成社交头像的链接
 
 ## 致谢
 
-感谢 [Jekyll](https://www.jekyll.com.cn/) 提供的技术支持才能有这个博客。
+感谢 [Jekyll](https://www.jekyll.com.cn/) 
 
-感谢 [LOFFER ](https://fromendworld.github.io/LOFFER/document/)提供的原始模板，我在其上进行的二次开发。
+感谢 [LOFFER ](https://fromendworld.github.io/LOFFER/document/)提供的原始模板。
 
-**我的个人技术公众号「后端技术学堂」分享、记录、成长，扫码添加，一起学习，共同成长。**
-
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
