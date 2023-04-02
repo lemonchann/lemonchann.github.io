@@ -63,8 +63,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 66b4507f8c6bebf71780
-  clientSecret: d5e2968218f6b207ed8f9fa0fe69c2a62180e736
+  clientID: a5800e2b65f0ada6e430
+  clientSecret: 153c6c3f249991903b7e77e9ce0fb368eb2aa45a
   repo: canisranna0.github.io
   owner: canisranna0
 
