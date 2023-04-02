@@ -17,10 +17,10 @@ author: canisranna0
 河里煤砖引入Giwifi已经有一段时间，最早使用时700兆带宽并能够上下行等宽。但自开始收费起，即使付费购买套餐网络质量也极差。
 首先，来了解一下giwifi,在我们宿舍内的是一个AP，硬件上采用较低成本的WiFi6和千兆网解决方案。经检查AP没有出现物理损坏，且也有其他同学反映同样问题。难么基本上确立是配置上的问题，
 简单查看一下信道
-[1](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/6a7bcd129f8eb275470b98139888efc.png)
-[2](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/d3108d7cacb49e4221e941d470c557d.jpg)
-[3](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/%E6%B5%8B%E9%80%9F%E7%BD%91%20-%20%E4%B8%93%E4%B8%9A%E6%B5%8B%E7%BD%91%E9%80%9F%2C%20%E7%BD%91%E9%80%9F%E6%B5%8B%E8%AF%95%2C%20%E5%AE%BD%E5%B8%A6%E6%8F%90%E9%80%9F%2C%20%E6%B8%B8%E6%88%8F%E6%B5%8B%E9%80%9F%2C%20%E7%9B%B4%E6%92%AD%E6%B5%8B%E9%80%9F%2C%205G%E6%B5%8B%E9%80%9F%2C%20%E7%89%A9%E8%81%94%E7%BD%91%E7%9B%91%E6%B5%8B%20-%20SpeedTest.cn%20%E5%92%8C%E5%8F%A6%E5%A4%96%203%20%E4%B8%AA%E9%A1%B5%E9%9D%A2%20-%20%E5%B7%A5%E4%BD%9C%20-%20Microsoft%E2%80%8B%20Edge%202023_3_11%2013_00_33.png)
-[4](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/%E6%B5%8B%E9%80%9F%E7%BD%91%20-%20%E4%B8%93%E4%B8%9A%E6%B5%8B%E7%BD%91%E9%80%9F%2C%20%E7%BD%91%E9%80%9F%E6%B5%8B%E8%AF%95%2C%20%E5%AE%BD%E5%B8%A6%E6%8F%90%E9%80%9F%2C%20%E6%B8%B8%E6%88%8F%E6%B5%8B%E9%80%9F%2C%20%E7%9B%B4%E6%92%AD%E6%B5%8B%E9%80%9F%2C%205G%E6%B5%8B%E9%80%9F%2C%20%E7%89%A9%E8%81%94%E7%BD%91%E7%9B%91%E6%B5%8B%20-%20SpeedTest.cn%20%E5%92%8C%E5%8F%A6%E5%A4%96%203%20%E4%B8%AA%E9%A1%B5%E9%9D%A2%20-%20%E5%B7%A5%E4%BD%9C%20-%20Microsoft%E2%80%8B%20Edge%202023_3_11%2013_01_35.png)
+！[1](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/6a7bcd129f8eb275470b98139888efc.png)
+！[2](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/d3108d7cacb49e4221e941d470c557d.jpg)
+！[3](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/%E6%B5%8B%E9%80%9F%E7%BD%91%20-%20%E4%B8%93%E4%B8%9A%E6%B5%8B%E7%BD%91%E9%80%9F%2C%20%E7%BD%91%E9%80%9F%E6%B5%8B%E8%AF%95%2C%20%E5%AE%BD%E5%B8%A6%E6%8F%90%E9%80%9F%2C%20%E6%B8%B8%E6%88%8F%E6%B5%8B%E9%80%9F%2C%20%E7%9B%B4%E6%92%AD%E6%B5%8B%E9%80%9F%2C%205G%E6%B5%8B%E9%80%9F%2C%20%E7%89%A9%E8%81%94%E7%BD%91%E7%9B%91%E6%B5%8B%20-%20SpeedTest.cn%20%E5%92%8C%E5%8F%A6%E5%A4%96%203%20%E4%B8%AA%E9%A1%B5%E9%9D%A2%20-%20%E5%B7%A5%E4%BD%9C%20-%20Microsoft%E2%80%8B%20Edge%202023_3_11%2013_00_33.png)
+！[4](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/%E6%B5%8B%E9%80%9F%E7%BD%91%20-%20%E4%B8%93%E4%B8%9A%E6%B5%8B%E7%BD%91%E9%80%9F%2C%20%E7%BD%91%E9%80%9F%E6%B5%8B%E8%AF%95%2C%20%E5%AE%BD%E5%B8%A6%E6%8F%90%E9%80%9F%2C%20%E6%B8%B8%E6%88%8F%E6%B5%8B%E9%80%9F%2C%20%E7%9B%B4%E6%92%AD%E6%B5%8B%E9%80%9F%2C%205G%E6%B5%8B%E9%80%9F%2C%20%E7%89%A9%E8%81%94%E7%BD%91%E7%9B%91%E6%B5%8B%20-%20SpeedTest.cn%20%E5%92%8C%E5%8F%A6%E5%A4%96%203%20%E4%B8%AA%E9%A1%B5%E9%9D%A2%20-%20%E5%B7%A5%E4%BD%9C%20-%20Microsoft%E2%80%8B%20Edge%202023_3_11%2013_01_35.png)
 emmmmmmm,这河里吗？真很河里。因为宿舍布局问题，每4个ap的距离都相当的近，加上信道拥挤，干涉现象严重，网络质量无法得到保证。更多的热点开启（毕竟WiFi没法用）造成更加严重的干涉现象，负反馈了属于是。（PS：以上都为虚构bushi）
 
 ## 资料查阅（点击查看原文 逃）
@@ -184,7 +184,7 @@ git checkout openwrt-21.02
 ./scripts/feeds install -a
 (feed更新过程尽量多跑几次，直到不出现报错，这里网络问题导致更新不完全是值得注意的点)
 # 测试编译环境
-[make  defconfig](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/094541bn6m3bi9v3w6sqij.png)
+！[make  defconfig](https://github.com/canisranna0/canisranna0.github.io/blob/master/images/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(5)/094541bn6m3bi9v3w6sqij.png)
 # 开始编译
 make menuconfig
 # 配置（×表示编译进固件里面 M表示只编译但不写到固件里面去 （空） 留空表示不做任何操作）
