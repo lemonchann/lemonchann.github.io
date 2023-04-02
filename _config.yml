@@ -39,7 +39,7 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: ning-meng-cheng-31-94
+  zhihu: 
   email: canisranna@gmail.com
   facebook:
   flickr:
@@ -51,7 +51,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  #twitter: frommidworld
+  #twitter: @canisranna0
   youtube:
 
 # Text under the icons in footer
