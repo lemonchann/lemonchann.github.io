@@ -10,7 +10,7 @@
 
 如果搭建过程中有什么问题，也可以扫码添加我的个人技术公众号讨论交流。
 
-**这是一个专注编程知识和资源分享的公众号，包含各类编程学习路线，让你在编程路上少走弯路**
+**这是一个专注共同成长和知识分享的公众号，包含各类成长学习路线，让把能力产品化销售和**
 
-![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
+![公众号二维码](https://github.com/chendong0/Picture/blob/main/qrcode1688562599847.jpg)
 
