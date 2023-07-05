@@ -39,7 +39,7 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: https://www.zhihu.com/people/cd789
+  zhihu: cd789
   email: chendong209@qq.com
   facebook:
   flickr:
@@ -73,7 +73,7 @@ gitalk:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://chendong.github.io
+url: https://chendong0.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
