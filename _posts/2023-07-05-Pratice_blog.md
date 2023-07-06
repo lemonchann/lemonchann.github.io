@@ -1,9 +1,13 @@
 ---
-layout:post 
+layout: post 
 title: "参天大树是从一颗种子开始"
-date:2023/07/05
+date: 2023-07-05
+tags: [家庭建设和传承]
+comments: ture
+author: 陈东
 ---
-# 一级标题
+
+# 培养练习职业精神
 ## 二级标题
 ### 三级标题
 #### 四级标题
