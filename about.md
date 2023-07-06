@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## 关于我
-你好，我是程序员柠檬。
+你好，我是一名工程师陈东。
 
 房建施工高级工程师、[知乎](https://www.zhihu.com/people/cd789)学习领域新手。
 
