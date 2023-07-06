@@ -12,7 +12,7 @@ permalink: /about/
 [个人公众号](https://mp.weixin.qq.com/s/DVjbSrAKKTpNOLDXLsdguw)分享记录个人成长，欢迎扫码添加：
 
 ![公众号二维码]
-(https://github.com/chendong0/Picture/blob/main/qrcodeWeChatofficialaccount.png)
+(https://github.com/chendong0/Picture/blob/main/qrcode1688562599847.jpg)
 
 
 ## 版权声明
