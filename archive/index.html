@@ -8,8 +8,8 @@ permalink: /archive/
   <h2>No post found</h2>
 {% endif %}
 
-{% capture current_year %}{{'now' | date: '%Y'}}{% endcapture %}
-{% capture current_month %}{{'now' | date: '%m'}}{% endcapture %}
+{% assign current_year = 'now' | date: '%Y' %}
+{% assign current_month = 'now' | date: '%m' %}
 {% assign current_archive = '' %}
 
 <ul class="archive">
