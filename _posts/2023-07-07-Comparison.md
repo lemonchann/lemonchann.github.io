@@ -7,7 +7,7 @@ comments: true
 author: 陈东
 ---
 
-一、长期每天写3000字文章,使用以下七种语言:HTML json yaml Markdown liquid textile word.doc
+#### 一、长期每天写3000字文章,使用以下七种语言:HTML json yaml Markdown liquid textile word.doc
 哪一种语言比较合适文本文字?
 以下是请逐一讲解?  
 
@@ -40,7 +40,7 @@ Word文档：
 
 总的来说，对于长期使用的3000字文章，HTML和Markdown是较为常见的选择。HTML提供了灵活的标签和样式定义，适合构建网页结构和样式。Markdown使用简洁的语法和可读性强的源代码，适合于专注于文本的结构和样式，也具有广泛的支持和使用。如果需要更复杂的布局和格式，Word文档可能是更适合的选择。最终选择应根据具体需求、使用环境和工作流程来决定。
 
-二、把Word转换成Markdown格式？  
+#### 二、把Word转换成Markdown格式？  
 
 Aspose：上传Word文档，指定转换选项，然后单击按钮。在线Word转Markdown转换器可在任何操作系统和任何设备上从浏览器中使用。它是100％免费的。    
 
