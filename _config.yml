@@ -34,6 +34,9 @@ paginate: 8
 
 excerpt_separator: <!-- more -->
 
+# 用kramdown自动生成目录树
+markdown： kramdown
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
