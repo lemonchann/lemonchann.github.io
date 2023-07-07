@@ -35,7 +35,7 @@ paginate: 8
 excerpt_separator: <!-- more -->
 
 # 用kramdown自动生成目录树
-markdown： kramdown
+# markdown:kramdown 这个语法是错的.
 
 # Includes an icon in the footer for each username you enter
 footer-links:
