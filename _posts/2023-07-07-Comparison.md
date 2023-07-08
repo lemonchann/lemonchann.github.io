@@ -4,7 +4,7 @@ title: "7种轻文本语言写3000字优劣势对比"
 date: 2023-07-07
 tags: [家庭建设和传承]
 comments: true
-author: 陈东
+author:  陈东
 ---
 
 ## 一、长期每天写3000字文章,使用以下七种语言:HTML json yaml Markdown liquid textile word.doc  
