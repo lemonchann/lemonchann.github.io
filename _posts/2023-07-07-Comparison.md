@@ -7,8 +7,6 @@ comments: true
 author: 陈东
 ---
 
-{:toc}
-
 ## 一、长期每天写3000字文章,使用以下七种语言:HTML json yaml Markdown liquid textile word.doc  
 
 ### 哪一种语言比较合适文本文字?
