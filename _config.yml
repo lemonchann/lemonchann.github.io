@@ -63,8 +63,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: bd65d5c0df878155b7fa
-  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+  clientID: 0ae1c0d083ffe6a818f8
+  clientSecret: ec4b04fc3f712588030510cc99a3021a85072e5a
   repo: kaxiu808.github.io
   owner: kaxiu808
 
