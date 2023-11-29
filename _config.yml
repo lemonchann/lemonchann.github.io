@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: "lemon's blog"
+name: "个人博客"
 # Short bio or description (displayed in the header)
 description: "个人技术公众号：程序员柠檬  分享编程资源 | 学习路线"
 
@@ -65,7 +65,7 @@ disqus: # fromendworld
 gitalk:
   clientID: bd65d5c0df878155b7fa
   clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: lemonchann.github.io
+  repo: kaxiu808.github.io
   owner: lemonchann
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -73,7 +73,7 @@ gitalk:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://lemonchann.github.io
+url: https://kaxiu808.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
