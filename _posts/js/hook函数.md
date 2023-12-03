@@ -7,7 +7,14 @@ tags: [geek]
 comments: true
 author: kaxiu808  
 ---
-## hook函数cookie
+## hook函数
+
+```python
+
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwODMyOTI3LDY1MDg3MjI5Ml19
+eyJoaXN0b3J5IjpbNjEzMDM5MDk5LDUxMDgzMjkyNyw2NTA4Nz
+IyOTJdfQ==
 -->
