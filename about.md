@@ -8,8 +8,8 @@ permalink: /about/
 
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain邮箱](2488402306@qq.com)
+zh
+[邮箱](2488402306@qq.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzkxNTM4MV19
+eyJoaXN0b3J5IjpbMTYxMDQxODcwMywxMDU3OTE1MzgxXX0=
 -->
