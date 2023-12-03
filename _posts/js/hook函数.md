@@ -12,12 +12,12 @@ author: kaxiu808
 
 ```js
 var people = {
-m}
+name:'张三'}
 
 ```
 
 ![输入图片说明](/imgs/2023-12-03/Re0eajGjW5vv0OWN.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4ODgzMDc3LDUxMDgzMjkyNyw2NTA4Nz
-IyOTJdfQ==
+eyJoaXN0b3J5IjpbLTYyMjk1MjQwNCw1MTA4MzI5MjcsNjUwOD
+cyMjkyXX0=
 -->
