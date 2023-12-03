@@ -8,13 +8,16 @@ comments: true
 author: kaxiu808  
 ---
 ## hook函数
+基本的class类
 
-```python
+```js
+var people = {
+m}
 
 ```
 
-
+![输入图片说明](/imgs/2023-12-03/Re0eajGjW5vv0OWN.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzMDM5MDk5LDUxMDgzMjkyNyw2NTA4Nz
+eyJoaXN0b3J5IjpbNDU4ODgzMDc3LDUxMDgzMjkyNyw2NTA4Nz
 IyOTJdfQ==
 -->
