@@ -39,11 +39,11 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: bian-20-15
-  email: bianwenzhe@hotmail.com
+  # zhihu: bian-20-15
+  # email: bianwenzhe@hotmail.com
   facebook:
   flickr:
-  github: jinitaimeiikun 
+  # github: jinitaimeiikun 
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
