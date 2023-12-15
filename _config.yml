@@ -37,8 +37,8 @@ excerpt_separator: <!-- more -->
 # Includes an icon in the footer for each username you enter
 footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
- # behance: # https://www.behance.net/<username>
-  # dribbble: # dribbble
+  behance: # https://www.behance.net/<username>
+ # dribbble: # dribbble
  #  zhihu: # ikun
    email: p1m2j6fv@duck.com
  # facebook: # fk
