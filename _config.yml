@@ -38,8 +38,8 @@ excerpt_separator: <!-- more -->
 footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
-  dribbble: # dribbble
-   zhihu: zhihu
+  # dribbble: # dribbble
+   zhihu: # zhihu
    email: p1m2j6fv@duck.com
   facebook: # fk
   flickr: # flickr
