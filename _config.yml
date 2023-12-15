@@ -41,16 +41,16 @@ footer-links:
   # dribbble: # dribbble
    zhihu: # zhihu
    email: p1m2j6fv@duck.com
-  facebook: # fk
-  flickr: # flickr
+ # facebook: # fk
+ # flickr: # flickr
    github: ikunlog
   googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram: # instagram
-  linkedin: # linkedin
-  pinterest: # pinterest
+#  instagram: # instagram
+#  linkedin: # linkedin
+#  pinterest: # pinterest
   rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  tumblr:  tumblr # https://<username>.tumblr.com
+#  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  # tumblr:  tumblr # https://<username>.tumblr.com
   twitter: twID
   youtube: YouTube
 
