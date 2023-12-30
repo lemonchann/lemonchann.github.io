@@ -20,6 +20,17 @@ layout: default
       </li>
       {% endfor %}
     </ul>
+    
+    {% if page.language == "English" %}
+      <span class="date">
+      &nbsp;(字数:{{ page.content | split: " " | size }})
+      </span>
+    {% elsif page.language == "Chinese" %}   
+      <span class="date">
+      &nbsp;(字数:{{ page.content | strip_html | strip_newlines | size }})
+      </span> 
+    {% endif %}
+    
   </div>
 
   
@@ -29,21 +40,24 @@ layout: default
   </div>
 
   {% include disqus.html %}
-  {% include gitalk.html %}
+  
+  {% if page.comments == true %}
+    {% include gitalk.html %}
+  {% endif %}
 </article>
 
 <div class="pagination">
   {% if page.previous.url %}
     <span class="prev" >
       <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
-        ← 上一篇
+        ← Last
       </a>
     </span>
   {% endif %}
   {% if page.next.url %}
     <span class="next" >
       <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
-        下一篇 →
+        Next →
       </a>
     </span>
   {% endif %}
