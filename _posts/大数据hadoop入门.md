@@ -76,7 +76,10 @@ vi/vim文本编辑器基础使用
 
 ![输入图片说明](/imgs/2024-01-01/0HoLzVzjLCzMarf6.png)
 总结
+--
+- 一切围绕着数据
+- 通俗描述：数据从哪里来、数据到哪里去
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDUyNjQ2LC01NzI5NTc3MTEsLTE1ND
-k1MzEzMjksNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbMjAwNzE1NTI4MSwtNTcyOTU3NzExLC0xNT
+Q5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
