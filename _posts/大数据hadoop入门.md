@@ -129,10 +129,13 @@ Linux操作系统概述
 
 ![输入图片说明](/imgs/2024-01-01/busCkyozEE31YAxV.png)
 ![输入图片说明](/imgs/2024-01-01/8u1SAgUsk6gTFByQ.png)
-vmware虚拟机概念
+- vmware虚拟机概念与安装
+- centos操作系统的虚拟机导入
+- vmware 虚拟机常用使用
+- finalshell jie's
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NTc1NDgxLC0yMDI5MjQxMzg5LDM0Nz
-MxNTkwLC01NzI5NTc3MTEsLTE1NDk1MzEzMjksNDQwOTA1NjE5
-XX0=
+eyJoaXN0b3J5IjpbLTE3MjcwODU1MzIsLTIwMjkyNDEzODksMz
+Q3MzE1OTAsLTU3Mjk1NzcxMSwtMTU0OTUzMTMyOSw0NDA5MDU2
+MTldfQ==
 -->
