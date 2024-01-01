@@ -126,7 +126,9 @@ Linux操作系统概述
 ![输入图片说明](/imgs/2024-01-01/f9alSVznTnJn4Cds.png)
 
 ![输入图片说明](/imgs/2024-01-01/Ti2AuZh6OCwZt1gb.png)
+
+![输入图片说明](/imgs/2024-01-01/busCkyozEE31YAxV.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTg0MzIwMCwzNDczMTU5MCwtNTcyOT
-U3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYxOV19
+eyJoaXN0b3J5IjpbLTIwMjkyNDEzODksMzQ3MzE1OTAsLTU3Mj
+k1NzcxMSwtMTU0OTUzMTMyOSw0NDA5MDU2MTldfQ==
 -->
