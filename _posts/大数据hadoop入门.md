@@ -113,8 +113,12 @@ Linux操作系统概述
 操作系统分类
 
 操作系统发展至今，种类繁多。可以根据应用的不同邻域进行划分：
-- 
+- 桌面操作系统
+- 服务器操作系统
+- 嵌入式操作系统
+- 移动式操作系统
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjA5Mjg1NiwzNDczMTU5MCwtNTcyOT
+eyJoaXN0b3J5IjpbLTM5MjA4Nzc3MSwzNDczMTU5MCwtNTcyOT
 U3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
