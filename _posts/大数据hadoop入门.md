@@ -64,7 +64,8 @@ vi/vim文本编辑器基础使用
 数据分析步骤（流程)的重要性体现在：对如何开展数据分析提供了强有力的逻辑支撑
 某某 在《数据分析六部曲》说，典型的数据分析应该包含以下几个步骤
 
-明确分析目的和思路 ---》 数据收集 --》 数据处理 --》 数据分析--》数据展现--》报告du'xie
+明确分析目的和思路 ---》 数据收集 --》 数据处理 --》 数据分析--》数据展现--》报告撰写
+![输入图片说明](/imgs/2024-01-01/NqZv5zEy8TWra4hg.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTc1MjEzMiw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTE1NDk1MzEzMjksNDQwOTA1NjE5XX0=
 -->
