@@ -108,8 +108,9 @@ Linux操作系统概述
 --
 - 操作系统概念与分类
 - linux起源与发展
-- l
+- linux内核与发行版本
+![输入图片说明](/imgs/2024-01-01/M05HoFUl4UO1Zmpp.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgxNTk4NDQsMzQ3MzE1OTAsLTU3Mj
+eyJoaXN0b3J5IjpbLTE3MzUwMjk5NzksMzQ3MzE1OTAsLTU3Mj
 k1NzcxMSwtMTU0OTUzMTMyOSw0NDA5MDU2MTldfQ==
 -->
