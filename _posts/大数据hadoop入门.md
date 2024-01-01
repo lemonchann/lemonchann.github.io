@@ -47,8 +47,11 @@ vi/vim文本编辑器基础使用
 - 原因分析(分析**过去**的数据)：某一现状为什么发送，确定原因，做出调整优化
 - 预测分析(结合数据预测**未来**)： 结合已有数据预测未来发展趋势。
 
-f
-原因
+
+原因分析
+- 离线分析 
+面向过去，面向历史，分析已有的数据
+在时间维度明显成
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTEzNzQ1Miw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTExMjQ4ODgyNTgsNDQwOTA1NjE5XX0=
 -->
