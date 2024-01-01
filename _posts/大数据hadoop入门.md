@@ -89,6 +89,7 @@ vi/vim文本编辑器基础使用
 ![输入图片说明](/imgs/2024-01-01/GSVwDfFEP02svjca.png)
 ![输入图片说明](/imgs/2024-01-01/8BgAsMkLklHTNO13.png)
 ![输入图片说明](/imgs/2024-01-01/SZ9VeR2cm5JSywdO.png)
+![输入图片说明](/imgs/2024-01-01/QuK5UIxLVQdv4lCs.png)
 
 分布式与集群
 --
@@ -96,6 +97,6 @@ vi/vim文本编辑器基础使用
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTg2NzY4MCwtNTcyOTU3NzExLC0xNT
-Q5NTMxMzI5LDQ0MDkwNTYxOV19
+eyJoaXN0b3J5IjpbLTEyNTMzNTM1MjAsLTU3Mjk1NzcxMSwtMT
+U0OTUzMTMyOSw0NDA5MDU2MTldfQ==
 -->
