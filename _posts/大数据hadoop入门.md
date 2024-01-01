@@ -133,9 +133,9 @@ Linux操作系统概述
 - centos操作系统的虚拟机导入
 - vmware 虚拟机常用使用
 - finalshell 介绍使用
-
+![输入图片说明](/imgs/2024-01-01/gdjAqYjPVh7NtLjq.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTQ2MDQzMSwtMjAyOTI0MTM4OSwzND
+eyJoaXN0b3J5IjpbLTk4OTE5NTUwNCwtMjAyOTI0MTM4OSwzND
 czMTU5MCwtNTcyOTU3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYx
 OV19
 -->
