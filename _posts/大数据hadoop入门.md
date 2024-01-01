@@ -93,7 +93,9 @@ vi/vim文本编辑器基础使用
 ![输入图片说明](/imgs/2024-01-01/teDfWDH4X5eKNSlE.png)
 思考
 --
-大数据chang
+大数据场景下
+- 海量数据如何存储？
+- 海里数据如何计算？
 
 
 分布式与集群
@@ -102,6 +104,6 @@ vi/vim文本编辑器基础使用
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM5NjIzMDAsLTU3Mjk1NzcxMSwtMT
-U0OTUzMTMyOSw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTkyODk5ODEwNiwtNTcyOTU3NzExLC0xNT
+Q5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
