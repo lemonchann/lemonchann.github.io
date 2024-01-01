@@ -32,6 +32,10 @@ vi/vim文本编辑器基础使用
 
 6.掌握vi/vim文本编辑器基础使用
 
+
+![输入图片说明](/imgs/2024-01-01/GG9fkI95ajKJwxOy.png)
+
+![输入图片说明](/imgs/2024-01-01/KEkOVORv5zYsM4uE.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzNDMzNDIxLDQ0MDkwNTYxOV19
+eyJoaXN0b3J5IjpbNjM2NTgxMDU0LDQ0MDkwNTYxOV19
 -->
