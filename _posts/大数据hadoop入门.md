@@ -117,8 +117,10 @@ Linux操作系统概述
 - 服务器操作系统
 - 嵌入式操作系统
 - 移动式操作系统
+![输入图片说明](/imgs/2024-01-01/SH5nl41SM49BUn6l.png)
 
+![输入图片说明](/imgs/2024-01-01/X5QzA2FBfehqyfc4.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjA4Nzc3MSwzNDczMTU5MCwtNTcyOT
+eyJoaXN0b3J5IjpbLTI5NDkwMDI4OSwzNDczMTU5MCwtNTcyOT
 U3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
