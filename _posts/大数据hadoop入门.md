@@ -44,8 +44,9 @@ vi/vim文本编辑器基础使用
 现状分析  原因分析 预测分析
 
 - 现状分析(分析**当下**的数据)：现阶段的整体情况，各个部分的构成占比、发展、变动；
-- 原因分析(分析**过去**的数据)：某一现状为什么发送，确定原因，做出tiao
+- 原因分析(分析**过去**的数据)：某一现状为什么发送，确定原因，做出调整优化
+- 预测分析(结合数据预测**未来**)： 结合已有数据预测未来fa'zhuang
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMzNTUzMjMsNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbLTk4MjU4MTYyMCw0NDA5MDU2MTldfQ==
 -->
