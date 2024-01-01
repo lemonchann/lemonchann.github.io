@@ -123,8 +123,10 @@ Linux操作系统概述
 
 ![输入图片说明](/imgs/2024-01-01/eT5YiVJ1QQMWVXGE.png)
 
-[图片上传中...(image-GsIRiycA8AdRDoQL)]
+![输入图片说明](/imgs/2024-01-01/f9alSVznTnJn4Cds.png)
+
+![输入图片说明](/imgs/2024-01-01/Ti2AuZh6OCwZt1gb.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzUzMzY0LDM0NzMxNTkwLC01NzI5NT
-c3MTEsLTE1NDk1MzEzMjksNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbLTU4OTg0MzIwMCwzNDczMTU5MCwtNTcyOT
+U3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
