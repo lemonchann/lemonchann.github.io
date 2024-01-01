@@ -128,7 +128,11 @@ Linux操作系统概述
 ![输入图片说明](/imgs/2024-01-01/Ti2AuZh6OCwZt1gb.png)
 
 ![输入图片说明](/imgs/2024-01-01/busCkyozEE31YAxV.png)
+![输入图片说明](/imgs/2024-01-01/8u1SAgUsk6gTFByQ.png)
+vmware虚拟机概念
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjkyNDEzODksMzQ3MzE1OTAsLTU3Mj
-k1NzcxMSwtMTU0OTUzMTMyOSw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbNzc3NTc1NDgxLC0yMDI5MjQxMzg5LDM0Nz
+MxNTkwLC01NzI5NTc3MTEsLTE1NDk1MzEzMjksNDQwOTA1NjE5
+XX0=
 -->
