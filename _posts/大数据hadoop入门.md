@@ -73,7 +73,10 @@ vi/vim文本编辑器基础使用
   通俗来说就是格式清晰，利于解读的数据
 ![输入图片说明](/imgs/2024-01-01/eGjeDIlhaMl0Ma16.png)
 ![输入图片说明](/imgs/2024-01-01/MgTtrH0C0G85qs0N.png)
+
+![输入图片说明](/imgs/2024-01-01/0HoLzVzjLCzMarf6.png)
+总结
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mjk1NzcxMSwtMTU0OTUzMTMyOSw0ND
-A5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbMjA3MDUyNjQ2LC01NzI5NTc3MTEsLTE1ND
+k1MzEzMjksNDQwOTA1NjE5XX0=
 -->
