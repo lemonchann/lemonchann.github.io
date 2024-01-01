@@ -1,22 +1,17 @@
 
 
  大数据导论
---
 
  vmware workstation虚拟机使用
---
 
 linux操作系统概述
---
 
 linux 常用基础命令
---
 
 linux常用系统命令
---
 
 vi/vim文本编辑器基础使用
---
+
 
   学习目标：
  
@@ -37,7 +32,7 @@ vi/vim文本编辑器基础使用
 
 ![输入图片说明](/imgs/2024-01-01/KEkOVORv5zYsM4uE.png)
 
-企业数据分析方向
+# 企业数据分析方向
 
 - 把隐藏在数据背后的信息集中和提炼出来，总结出所研究对象的内在规律，帮助管理者进行有效的判断和决策。
 - 数据分析在企业日常经营分析中主要有三大方向
@@ -68,8 +63,11 @@ vi/vim文本编辑器基础使用
 ![输入图片说明](/imgs/2024-01-01/NqZv5zEy8TWra4hg.png)
 ![输入图片说明](/imgs/2024-01-01/Gwb0exHvV4T1f7pI.png)
 
-![输入图片说明](/imgs/2024-01-01/p7iIjUTAgstlujm3.png)
+![输入图片说明](/imgs/2024-01-01/P6N19Y9P4tI5oVsS.png)
+
+思考
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3MDYwODI1LC0xNTQ5NTMxMzI5LDQ0MD
+eyJoaXN0b3J5IjpbNjc5MDcyMTk4LC0xNTQ5NTMxMzI5LDQ0MD
 kwNTYxOV19
 -->
