@@ -132,10 +132,10 @@ Linux操作系统概述
 - vmware虚拟机概念与安装
 - centos操作系统的虚拟机导入
 - vmware 虚拟机常用使用
-- finalshell jie's
+- finalshell 介绍使用
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjcwODU1MzIsLTIwMjkyNDEzODksMz
-Q3MzE1OTAsLTU3Mjk1NzcxMSwtMTU0OTUzMTMyOSw0NDA5MDU2
-MTldfQ==
+eyJoaXN0b3J5IjpbMTYxOTQ2MDQzMSwtMjAyOTI0MTM4OSwzND
+czMTU5MCwtNTcyOTU3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYx
+OV19
 -->
