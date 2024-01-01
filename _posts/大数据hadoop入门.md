@@ -100,10 +100,9 @@ vi/vim文本编辑器基础使用
 
 分布式与集群
 --
-
-
+![输入图片说明](/imgs/2024-01-01/tLYMv8ZETjrr66nc.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODk5ODEwNiwtNTcyOTU3NzExLC0xNT
+eyJoaXN0b3J5IjpbLTk5NzM0Nzk0OSwtNTcyOTU3NzExLC0xNT
 Q5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
