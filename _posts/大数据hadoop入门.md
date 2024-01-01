@@ -87,7 +87,7 @@ vi/vim文本编辑器基础使用
 大数据时代
 --
 ![输入图片说明](/imgs/2024-01-01/GSVwDfFEP02svjca.png)
-[图片上传中...(image-HsfMpkwmFBFBQpzo)]
+![输入图片说明](/imgs/2024-01-01/8BgAsMkLklHTNO13.png)
 
 分布式与集群
 --
@@ -95,6 +95,6 @@ vi/vim文本编辑器基础使用
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzQwODQwNywtNTcyOTU3NzExLC0xNT
+eyJoaXN0b3J5IjpbMTA3MTMzNzU2NywtNTcyOTU3NzExLC0xNT
 Q5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
