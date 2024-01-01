@@ -110,7 +110,11 @@ Linux操作系统概述
 - linux起源与发展
 - linux内核与发行版本
 ![输入图片说明](/imgs/2024-01-01/M05HoFUl4UO1Zmpp.png)
+操作系统分类
+
+操作系统发展至今，种类繁多。可以根据应用的不同邻域进行划分：
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzUwMjk5NzksMzQ3MzE1OTAsLTU3Mj
-k1NzcxMSwtMTU0OTUzMTMyOSw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbMTkyMjA5Mjg1NiwzNDczMTU5MCwtNTcyOT
+U3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYxOV19
 -->
