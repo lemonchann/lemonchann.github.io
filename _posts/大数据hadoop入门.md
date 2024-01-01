@@ -134,8 +134,10 @@ Linux操作系统概述
 - vmware 虚拟机常用使用
 - finalshell 介绍使用
 ![输入图片说明](/imgs/2024-01-01/gdjAqYjPVh7NtLjq.png)
+
+![输入图片说明](/imgs/2024-01-01/hq3cKu3eEh4RXpGr.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTE5NTUwNCwtMjAyOTI0MTM4OSwzND
+eyJoaXN0b3J5IjpbLTY5NDc3MzE1NiwtMjAyOTI0MTM4OSwzND
 czMTU5MCwtNTcyOTU3NzExLC0xNTQ5NTMxMzI5LDQ0MDkwNTYx
 OV19
 -->
