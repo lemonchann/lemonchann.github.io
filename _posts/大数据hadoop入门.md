@@ -41,7 +41,10 @@ vi/vim文本编辑器基础使用
 
 - 把隐藏在数据背后的信息集中和提炼出来，总结出所研究对象的内在规律，帮助管理者进行有效的判断和决策。
 - 数据分析在企业日常经营分析中主要有三大方向
-现状分析  
+现状分析  原因分析 预测分析
+
+- 现状分析(分析当下)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTkyNzI4Nyw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbMTM4MjUxNzc3Myw0NDA5MDU2MTldfQ==
 -->
