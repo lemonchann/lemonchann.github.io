@@ -56,7 +56,9 @@ vi/vim文本编辑器基础使用
 面向当下，分析实时产生的数据
 所谓的实时是指从数据产生到数据分析到数据应用的时间间隔很短，可细分妙级，毫秒级
 ![输入图片说明](/imgs/2024-01-01/bYfzvMywaasvxYpE.png)
-ji
+- 机器学习
+基于历史数据和当下产生的实时数据预测未来发生的事情；
+侧重于数学算法的运用，ru
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ4NTI5Nyw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbMTU4MDYxMTkzNSw0NDA5MDU2MTldfQ==
 -->
