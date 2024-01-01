@@ -32,7 +32,7 @@ vi/vim文本编辑器基础使用
 
 ![输入图片说明](/imgs/2024-01-01/KEkOVORv5zYsM4uE.png)
 
-# 企业数据分析方向
+# 1. 企业数据分析方向
 
 - 把隐藏在数据背后的信息集中和提炼出来，总结出所研究对象的内在规律，帮助管理者进行有效的判断和决策。
 - 数据分析在企业日常经营分析中主要有三大方向
@@ -82,7 +82,9 @@ vi/vim文本编辑器基础使用
 - 通俗描述：数据从哪里来、数据到哪里去
 - 核心步骤：采集、处理、分析、应用
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjU2ODY4MiwtNTcyOTU3NzExLC0xNT
-Q5NTMxMzI5LDQ0MDkwNTYxOV19
+eyJoaXN0b3J5IjpbLTE4ODk0OTAxODUsLTU3Mjk1NzcxMSwtMT
+U0OTUzMTMyOSw0NDA5MDU2MTldfQ==
 -->
