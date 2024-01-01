@@ -69,8 +69,11 @@ vi/vim文本编辑器基础使用
 --
 1.当下的企业中用于分析的数据是侧重于文本数据多一些，还是侧重于图片、视频数据多一些？
 2.什么叫干净规整的结构化数据？有非结构化数据?
-专业来说就是二维
+  专业来说就是二维表的数据，行列对应；
+  通俗来说就是格式清晰，利于解读的数据
+![输入图片说明](/imgs/2024-01-01/eGjeDIlhaMl0Ma16.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDkyMTExOSwtMTU0OTUzMTMyOSw0ND
-A5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTIwOTEzMjkyNDUsLTE1NDk1MzEzMjksND
+QwOTA1NjE5XX0=
 -->
