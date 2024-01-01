@@ -58,7 +58,8 @@ vi/vim文本编辑器基础使用
 ![输入图片说明](/imgs/2024-01-01/bYfzvMywaasvxYpE.png)
 - 机器学习
 基于历史数据和当下产生的实时数据预测未来发生的事情；
-侧重于数学算法的运用，ru
+侧重于数学算法的运用，如分类、聚合、关联、预测
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDYxMTkzNSw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTE1MDU1MDk0MjIsNDQwOTA1NjE5XX0=
 -->
