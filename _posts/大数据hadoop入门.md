@@ -72,8 +72,8 @@ vi/vim文本编辑器基础使用
   专业来说就是二维表的数据，行列对应；
   通俗来说就是格式清晰，利于解读的数据
 ![输入图片说明](/imgs/2024-01-01/eGjeDIlhaMl0Ma16.png)
-
+![输入图片说明](/imgs/2024-01-01/MgTtrH0C0G85qs0N.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTEzMjkyNDUsLTE1NDk1MzEzMjksND
-QwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbLTU3Mjk1NzcxMSwtMTU0OTUzMTMyOSw0ND
+A5MDU2MTldfQ==
 -->
