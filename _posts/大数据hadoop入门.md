@@ -54,8 +54,9 @@ vi/vim文本编辑器基础使用
 在时间维度明显成批次性变化。 一周一分析 ，一天一分析 ，所以也叫做批处理。
 ![输入图片说明](/imgs/2024-01-01/vh6v7b2JeynE9mYg.png)
 - 实时分析
-面向当下，分析shi's
+面向当下，分析实时产生的数据
+所谓的实时是指从数据产生到数据分析到数据应用的时间间隔h
 ![输入图片说明](/imgs/2024-01-01/bYfzvMywaasvxYpE.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTI5MzY5OSw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTExNjU0ODY5OTYsNDQwOTA1NjE5XX0=
 -->
