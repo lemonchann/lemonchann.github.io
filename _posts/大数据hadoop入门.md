@@ -66,6 +66,10 @@ vi/vim文本编辑器基础使用
 
 明确分析目的和思路 ---》 数据收集 --》 数据处理 --》 数据分析--》数据展现--》报告撰写
 ![输入图片说明](/imgs/2024-01-01/NqZv5zEy8TWra4hg.png)
+![输入图片说明](/imgs/2024-01-01/Gwb0exHvV4T1f7pI.png)
+
+![输入图片说明](/imgs/2024-01-01/p7iIjUTAgstlujm3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk1MzEzMjksNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbNTk3MDYwODI1LC0xNTQ5NTMxMzI5LDQ0MD
+kwNTYxOV19
 -->
