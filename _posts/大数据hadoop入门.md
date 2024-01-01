@@ -51,12 +51,11 @@ vi/vim文本编辑器基础使用
 原因分析
 - 离线分析 
 面向过去，面向历史，分析已有的数据
-在时间维度明显成批次性变化。 一周一分析 ，一天一分析 ，所以也叫做批处理。
-![输入图片说明](/imgs/2024-01-01/vh6v7b2JeynE9mYg.png)
+在时间维度明显成批次性变化。 一周一分析 ，一天一分析 ，所以也叫做批处理。![输入图片说明](/imgs/2024-01-01/vh6v7b2JeynE9mYg.png)
 - 实时分析
 面向当下，分析实时产生的数据
-所谓的实时是指从数据产生到数据分析到数据应用的时间间隔h
+所谓的实时是指从数据产生到数据分析到数据应用的时间间隔很短，可细分妙级，毫秒级
 ![输入图片说明](/imgs/2024-01-01/bYfzvMywaasvxYpE.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU0ODY5OTYsNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbMjA5MDQ2OTMxMiw0NDA5MDU2MTldfQ==
 -->
