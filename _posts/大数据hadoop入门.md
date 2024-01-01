@@ -51,7 +51,7 @@ vi/vim文本编辑器基础使用
 原因分析
 - 离线分析 
 面向过去，面向历史，分析已有的数据
-在时间维度明显成
+在时间维度明显成批次性变化。 一周一分析 ，一天一分析 ，所以也叫做批处理。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ4ODgyNTgsNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbNzU4ODM1MTQ0LDQ0MDkwNTYxOV19
 -->
