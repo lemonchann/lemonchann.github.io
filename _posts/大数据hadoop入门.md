@@ -66,8 +66,9 @@ vi/vim文本编辑器基础使用
 ![输入图片说明](/imgs/2024-01-01/P6N19Y9P4tI5oVsS.png)
 
 思考
--
+--
+1.当下的企业中用于分析的数据是侧重于文本数据多一些，还是侧重于t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MDcyMTk4LC0xNTQ5NTMxMzI5LDQ0MD
+eyJoaXN0b3J5IjpbOTI4MDgzMDEwLC0xNTQ5NTMxMzI5LDQ0MD
 kwNTYxOV19
 -->
