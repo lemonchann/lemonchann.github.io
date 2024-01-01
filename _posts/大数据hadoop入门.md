@@ -62,7 +62,7 @@ vi/vim文本编辑器基础使用
 ![输入图片说明](/imgs/2024-01-01/zwZCe3RqL3mRJq6x.png)
 
 数据分析步骤（流程)的重要性体现在：对如何开展数据分析提供了强有力的逻辑支撑
-
+某某 在《数据分析六部曲》说，典型的数据fen'x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1OTg0NzMzLDQ0MDkwNTYxOV19
+eyJoaXN0b3J5IjpbMTkxMzEwNjE5Miw0NDA5MDU2MTldfQ==
 -->
