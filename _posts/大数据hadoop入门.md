@@ -104,9 +104,12 @@ vi/vim文本编辑器基础使用
 ![输入图片说明](/imgs/2024-01-01/QJFTHJrtbGLKnwzp.png)
 ![输入图片说明](/imgs/2024-01-01/6gnovPJsataSqiOP.png)
 
-
-
+Linux操作系统概述
+--
+- 操作系统概念与分类
+- linux起源与发展
+- l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxMjUxMzIyLDM0NzMxNTkwLC01NzI5NT
-c3MTEsLTE1NDk1MzEzMjksNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbLTE5MzgxNTk4NDQsMzQ3MzE1OTAsLTU3Mj
+k1NzcxMSwtMTU0OTUzMTMyOSw0NDA5MDU2MTldfQ==
 -->
