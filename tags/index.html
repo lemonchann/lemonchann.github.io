@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 标签
+title: 类别
 permalink: /tags/
 ---
 
@@ -8,37 +8,112 @@ permalink: /tags/
   <h2>No post found</h2>
 {% endif %}
 
+{% assign sorted_tags = site.tags | sort  %}
+
 <div class="tags">
+  
   <ul class="label">
-    {% for tag in site.tags %}
     <li>
-      <a href="#{{ tag[0] }}">
-        <span>{{ tag[0] }}</span>
-        <span class="count">{{ tag[1] | size }}</span>
+      <a href="#AI">
+        <span>AI</span>
+        <span class="count">#</span>
       </a>
     </li>
+    <li>
+      <a href="#js">
+        <span>js</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#python">
+        <span>python</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#数学">
+        <span>数学</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+    <li>
+      <a href="#算法">
+        <span>算法</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+    <li>
+      <a href="#日常">
+        <span>日常</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#文化">
+        <span>文化</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#运动">
+        <span>运动</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#哲学">
+        <span>哲学</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+    <li>
+      <a href="#政经">
+        <span>政经</span>
+        <span class="count">#</span>
+      </a>
+    </li>
+  </ul>
+  
+  <ul class="label">
+    {% for tag in sorted_tags %}
+      {% if tag[0] == "delete this if to make it working" %}
+        <li>
+          <a href="#{{ tag[0] }}">
+            <span>{{ tag[0] }}</span>
+            <span class="count">{{ tag[1] | size }}</span>
+          </a>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
-
-  {% for tag in site.tags %}
+  
+  {% for tag in site.tags reversed %}
     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
     </h2>
     <ul class="tag">
       {% for post in tag[1] %}
         {% if post.title != null %}
-          <li>
-            {% if post.link %}
-              <a href="{{ post.link }}">
-            {% else %}
-              <a href="{{ site.baseurl }}{{ post.url }}">
-            {% endif %}
-                {{ post.title }}
-              </a>
-              <time>{{ post.date | date: "%Y-%m-%d" }}</time>
-          </li>
+          {% if post.hidden != true %}
+            <li>
+              {% if post.link %}
+                <a href="{{ post.link }}">
+              {% else %}
+                <a href="{{ site.baseurl }}{{ post.url }}">
+              {% endif %}
+                  {{ post.title }}
+                </a>
+                <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+            </li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
   {% endfor %}
+  
 </div>
+
+<br>
