@@ -62,6 +62,12 @@ footer-text: Copyright (c) 2023-2024 lemon
 disqus: # fromendworld
 
 # Gitalk
+gitalk:
+  clientID: bd65d5c0df878155b7fa
+  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+  repo: LineXico.github.io
+  owner: LineXico
+
 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
