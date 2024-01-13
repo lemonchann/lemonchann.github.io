@@ -63,10 +63,10 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: ac8516a19de6ea4e6ab3
-  clientSecret: 8a7cee1e83b72632287e954c394fd8cf2c24d01e
-  repo: LineXico.github.io
-  owner: LineXico
+  clientID: 
+  clientSecret: 
+  repo: 
+  owner: 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
