@@ -33,8 +33,8 @@ permalink: /about/
  
 现在大家多追求博客的美观，用了一个博客主题折腾了一番后又换了一个博客，我来说说我研究过的博客
 
->jekyll hexo hugo docsify typecho和halo
-> 我现在长期使用的博客是typecho和docsif
+>jekyll hexo hugo docsify typecho和halo<br>
+> 我现在长期使用的博客是typecho和jekyll
  
 ## 写博客
 
