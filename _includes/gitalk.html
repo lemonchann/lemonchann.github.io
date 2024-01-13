@@ -3,7 +3,7 @@
     <div id="gitalk-container"></div>
     <script>
         const gitalk = new Gitalk({
-          clientID: "LineXic",
+          clientID: "{{ site.gitalk.clientID }}",
           clientSecret: "{{ site.gitalk.clientSecret }}",
           repo: "{{ site.gitalk.repo }}",
           owner: "{{ site.gitalk.owner }}",
@@ -14,7 +14,7 @@
           language: "zh-CN",
 
         })
-        
+
         gitalk.render('gitalk-container')
     </script>
 </div>
