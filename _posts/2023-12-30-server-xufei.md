@@ -40,8 +40,7 @@ author: LineXic
 > QQ：2793151375
 > 
 >邮箱：linexic@yeah.net<br>
->GitHub：
-> 
+>GitHub：<br>
 >https://githubfast.com/LineXic
 > 
 >验证信息：LineXic
