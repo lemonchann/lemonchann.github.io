@@ -1,20 +1,44 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
 
-## 关于我
-你好，我是程序员柠檬。
+# 介绍
+我是LineXic，是一名初三的学生平时喜欢打羽毛球🏸和跑步🏃放假的时候喜欢在网络上瞎折腾（已经折腾出三个博客了，每个博客都有文章） 
 
-国内一线互联网大厂计算机软件工程师、[知乎](https://www.zhihu.com/people/ning-meng-cheng-31-94)编程领域万赞答主。
+# 网络上的我
+## 先介绍一下我的博客吧 
 
-[个人技术公众号](https://mp.weixin.qq.com/mp/homepage?__biz=MzkwOTE2OTY1Nw==&hid=1&sn=6395e40d884ce4dd3900a68a0f5a6b87&scene=18#wechat_redirect)分享编程学习路线、编程学习资源，记录技术成长，欢迎扫码添加：
+> - [LineXic博客.blog](https://blog.linexic.top)
 
-![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
+> - [LineXic博客-2](https://linexic.top)
 
+第一篇博客是在YT上看了[一个视频](https://youtu.be/fU9TQ06aGhw?si=0zu6DABVl55xLC5j)讲述了cloudflare博客搭建教程 
+第二个博客是给[承挨](https://chengai77a6b.top/)搭建halo博客的时候蹭他的服务器建设的typecho博客 
 
+# KLPBBS
+2022-11-1 我正式注册了[苦力怕论坛](https://klpbbs.com/?fromuid=1114580)一年前认识了承挨自那起我们一起汉化addon，建立了承挨汉化组 
+先前我们只是员工关系（我给他汉化，他给我马内）后来我学到的越来越多了帮他建设了他的资源分享[博客](https://blog.chengai77a6b.top/)我的第二个博客也是那个时候建立起来的
 
-## 版权声明
+> 现在我们一起讨论，感觉更像是一个朋友 
 
-博客文章是我原创文章，存档于_posts 文件夹下，版权归我所有，转载请与我联系获得授权许可。
+# 我对博客的看法 
+
+博客是我们写文章的一个载体，我对博客的要求就是
+
+- 好用（功能完善，评论和搜索
+- 看着顺眼（不要求多好看，只要顺眼就好
+- 方便（编辑文章时方便
+ 
+现在大家多追求博客的美观，用了一个博客主题折腾了一番后又换了一个博客，我来说说我研究过的博客
+
+>jekyll hexo hugo docsify typecho和halo
+> 我现在长期使用的博客是typecho和docsif
+ 
+## 写博客
+
+写博客时可以写你看过一个对你有启示的文章或视频的笔记，但切记不要原话写上，应该写上你自己的理解这和上学时做笔记不一样 
+如果你照抄原话不是你理解的回过头来你可能就不认识了
+ 
+> 我这几天正在研究Minecraft Addon的写法，有可能也会把这个写进博客
