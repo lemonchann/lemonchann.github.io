@@ -63,8 +63,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 2855393e6a374c6dcda5
-  clientSecret: df3a84ab28e5d72ec8a02ad4159dd60fdfd90eab
+  clientID: ac8516a19de6ea4e6ab3
+  clientSecret: 8a7cee1e83b72632287e954c394fd8cf2c24d01e
   repo: LineXico.github.io
   owner: LineXico
 
