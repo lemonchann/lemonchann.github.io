@@ -12,7 +12,7 @@ Cloudflare Workers是一个基于JavaScript的强大的边缘计算平台，它�
 >具体查看<br>
 [cloudflare中文|学习中心](https://www.cloudflare-cn.com/learning "cloudflare中文|学习中心")
 
-# 
+
 - [gh文件下载加速](https://githubfast.com/hunshcn/gh-proxy "gh文件下载加速")
 
 github release、archive以及项目文件的加速项目
@@ -42,4 +42,5 @@ github release、archive以及项目文件的加速项目
 [resources/cf-work.6858/](https://www.minebbs.com/resources/cf-work.6858/ "resources/cf-work.6858/")
 
 - 反向代理
+  原帖已经找不着了直接点击[这里](https://linexico.github.io/%E6%88%91%E7%9A%84%E6%96%87%E4%BB%B6/fandai.js "反代")。
   
