@@ -41,7 +41,7 @@ author: LineXic
 > 
 >邮箱：linexic@yeah.net<br>
 >GitHub：<br>
->https://githubfast.com/LineXic
+>https://github.com/LineXic
 > 
 >验证信息：LineXic
  
