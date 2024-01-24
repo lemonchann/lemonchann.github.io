@@ -28,6 +28,8 @@ navigation:
     url: /archive
   - name: 标签
     url: /tags
+  - name:友链
+    url: /friend
 
 # Pagination
 paginate: 8
@@ -55,13 +57,19 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2023-2024 lemon
+footer-text: Copyright (c) 2023-2024 LineXic
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus: # fromendworld
 
 # Gitalk
+gitalk:
+  clientID: a8cad214589768f8a939
+  clientSecret: bdbd28f6608e28f7c164011cb282b9f1cd9195c1
+  repo: LineXico.github.io
+  owner: LineXico
+
 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -114,4 +122,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
