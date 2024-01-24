@@ -28,6 +28,8 @@ navigation:
     url: /archive
   - name: 标签
     url: /tags
+  - name:友链
+    url: /friend
 
 # Pagination
 paginate: 8
