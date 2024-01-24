@@ -29,7 +29,7 @@ navigation:
   - name: 标签
     url: /tags
   - name:友链
-    url: /friend
+    url: /
 
 # Pagination
 paginate: 8
