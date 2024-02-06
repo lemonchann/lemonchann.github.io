@@ -1,30 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-  {% include meta.html %}
-  {% include fonts.html %}
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  <link rel="shortcut icon" href="{{ site.favicon }}">
- <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
-  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-  <script>
-    (function(d) {
-      var config = {
-        kitId: 'vbt3gjx',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>  
-
-
-  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-
+  <!-- ...其他头部元素... -->
 </head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ site.baseurl }}/index.html">首页</a></li>
+        <li><a href="{{ site.baseurl }}/members.html">社团成员介绍</a></li>
+        <li><a href="{{ site.baseurl }}/activities.html">社团活动</a></li>
+        <li><a href="{{ site.baseurl }}/resources.html">教学资源</a></li>
+      </ul>
+    </nav>
+    <a href="{{ site.baseurl }}/join.html" class="join-button">Join Us</a>
+  </header>
+  <!-- ...页面主体内容... -->
+</body>
+</html>

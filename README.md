@@ -1,16 +1,29 @@
-这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客，可以参考我博客的[这篇文章]( https://lemonchann.github.io/create_blog_with_github_pages/ )详细指导搭建步骤。
+Fork from：https://lemonchann.github.io/create_blog_with_github_pages/
 
-### 文章版权
+We are Fintechlab & iOS Club.
+一个教你硬核金融科技知识和如何做有趣的人的社团
+附图：Fintechlab 和 iOS Club的图
+Join Us:(google form to be compeleted)
 
-`_posts` 文件夹内所有文章版权归我所有，转载需联系我获得授权。
+About Fintechlab
+Introduction:
 
-### 致谢
+About iOS Club
+Intro: 参考-是**第一個獲得 Apple 官方認證的社團，也是一個結合學術的志工性社團。每年寒、暑假社員們會有國際交流的機會，到海外參加 iOS Club 官方舉辦的冬、夏令營， 和不同國家的學生進行合作活動與技術交流。
 
-感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板，我在其上进行的二次开发。
+WHO ARE WE(成员介绍)
+放一张合照：
+Intro(我们会做什么): 比赛；课程；学习；娱乐等
+放一个按钮：成员介绍（跳转到成员介绍页，用来放大家的profile）
 
-如果搭建过程中有什么问题，也可以扫码添加我的个人技术公众号讨论交流。
+学习资源库（可分为for members and for public）
+Intro：资源都包含些什么
+按钮：跳转到资源页
 
-**这是一个专注编程知识和资源分享的公众号，包含各类编程学习路线，让你在编程路上少走弯路**
+社团竞赛
+intro：社团每年参加的比赛
+按钮：跳转到社团竞赛页，可以放上比赛介绍+历年获奖名单
 
-![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
-
+最后放一张名片：Contact Us
+邮箱：
+地址: SWUFE某某楼 I405-407

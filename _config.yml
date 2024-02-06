@@ -3,9 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: "lemon's blog"
+name: "Fintechlab's Website"
 # Short bio or description (displayed in the header)
-description: "个人技术公众号：程序员柠檬  分享编程资源 | 学习路线"
+description: "金融科技学习兴趣小组-
+From 西南财经大学  分享学习资源 | 学习路线 | 成员介绍"
 
 #
 # Flags below are optional
@@ -39,11 +40,11 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: ning-meng-cheng-31-94
-  email: llong87@163.com
+  #zhihu: ning-meng-cheng-31-94
+  email: fintechswufe@gmail.com
   facebook:
   flickr:
-  github: lemonchann 
+  github: fintechlabswufe
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -61,19 +62,20 @@ footer-text: Copyright (c) 2019 lemon
 # You can find your shortname on the Settings page of your Disqus account
 disqus: # fromendworld
 
-# Gitalk
-gitalk:
-  clientID: bd65d5c0df878155b7fa
-  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: lemonchann.github.io
-  owner: lemonchann
+# Gitalk 待完成
+# gitalk:
+#   clientID: bd65d5c0df878155b7fa
+#   clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
+#   repo: lemonchann.github.io
+#   owner: lemonchann
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking # 待完成
 #google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# 待完成
 # Used for Sitemap.xml and your RSS feed
-url: https://lemonchann.github.io
+#url: https://lemonchann.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
